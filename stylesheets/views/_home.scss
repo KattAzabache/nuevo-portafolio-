@@ -1,90 +1,23 @@
-.circle{
-	background-color: rgb(213, 213, 213);
-	border-radius: 58%;
-	width: 100px;
-	height: 100px;
-	margin: 10px auto;
-}
-.circulo{
-	background-color: rgb(213, 213, 213);
-	border-radius: 58%;
-	width: 50px;
-	height: 50px;
-}
-.carousel {
-height: 560px;
-background-color: rgb(221, 214, 214);
-}
-.carousel-control.left{
-	background-color: rgba(252, 250, 250, 0.5);
 
-}
-.carousel-control.right{
-	background-color: rgba(252, 250, 250, 0.5);
 
+/*http://img.tecnologiapyme.com/2010/07/beach_laptop.jpg
+http://cdn.webadictos.co/media/2013/07/Laptop-on-Beach-800x523.jpg
+http://www.cssauthor.com/wp-content/uploads/2014/09/Free-Macbook-Air-hipster-Mockups1.jpg
+*/
+.container-fluid{
+	padding: 0;
 }
-.navbar-header{
-width: 100%;
+.row{
+	margin: 0;
 }
- .navbar-nav{
- 	float: none;
- 	text-align: center;
- 	li {
- 		float: none;
- 		display: inline-block;
- 	}
- }
-.navbar-nav.ul-2{
- 	float: none;
- 	text-align: center;
- 	li {
- 		float: none;
- 		display: block;
- 	}
- }
- .container-fluid{
- 	padding: 0px;
- }
-span >img{
-	width: 81px;
-	position: relative;
-	top: 250px;
- }
-.caja3>img{
-width: 100%;
 
-}
-.caja4{
-  width: 250px;
-  height: 100px;
- }
-.titulo3{
-
-}
-.contenido{
-  padding:41px 65px;
-  background-color: #ecf0f1
-}
-h4{
-font-size: 25px;
-}
-.reemplazo>img{
+.foto-principal .fondo{
 	width: 100%;
-	height: 100%;
 }
-.redes img{
-	width: 20%;
-}
-.row {
- margin-left: 0px; 
- margin-right: 0px; 
-}
-footer{
-	background-color: black;
-}
-h1{
-	color: white;
-}
-.texto2>p{
-	color: white
+.texto-principal{
+  text-align: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  font-family: fantasy;
 }
