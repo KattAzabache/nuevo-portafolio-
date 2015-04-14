@@ -3,21 +3,169 @@
 /*http://img.tecnologiapyme.com/2010/07/beach_laptop.jpg
 http://cdn.webadictos.co/media/2013/07/Laptop-on-Beach-800x523.jpg
 http://www.cssauthor.com/wp-content/uploads/2014/09/Free-Macbook-Air-hipster-Mockups1.jpg
+http://www.doddleinternet.com/
+#008D99
 */
+html, body, {
+  height: 100%;
+}
 .container-fluid{
 	padding: 0;
 }
 .row{
-	margin: 0;
+		margin-left: 0;
+        margin-right: 0;
+    }
+
+.header {
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  /*background: url() no-repeat center center scroll;
+  background-size: cover;*/
+}
+.texto-principal {
+   img{
+   	width: 100%;
+   	height: 100%;
+   	position: absolute;
+   	left: 0;
+   }
+
+   h1{
+     text-align: center;
+     position: relative;
+     top: 0;
+     margin: 0;
+     width: 100%;
+     font-family:'Niconne', cursive;
+     padding: 22% 0;
+     background: rgba(189, 189, 189, 0.3);
+     font-size: 90px;
+     color: rgb(247, 6, 141);
+  }
+}
+.proyectos{
+	    padding: 5% 2%;
+		.grid{
+         padding: 0;
+         height: 365px;
+        }
+    }
+.carousel-inner > .item > a > img {
+         	height: 365px;
+            width: 100%;
+}
+.texto{
+	text-align: center;
+	margin: 7% 0;
+	font-family: Merienda;
+	color: rgb(32, 177, 223);
+}
+.tex{
+   height: 365px;
+   background-image: url(http://carsolidaritatea.ro/wp-content/uploads/2014/03/1344899.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   text-align: justify;
+   padding: 10.6% 75px;
+   font-family: Merienda;
+   span{
+	 text-align: justify;
+	 position: relative;
+	 top: 1px;
+     color: white;
+     font-size: 19px;
+   }
+}
+.menudes {
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto 10px;
+  text-align:center;
+  z-index: 50;
+  background-color: rgba(153, 153, 153, 0.91);
+
 }
 
-.foto-principal .fondo{
-	width: 100%;
-}
-.texto-principal{
+.menudes a {
+  display: inline-block;
+  width: 20%; /* 100% dividido por el número de elementos */
+  box-sizing: border-box;
+  padding: 15px 5px;
+  color: #000;
+  text-decoration: none;
   text-align: center;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  font-family: fantasy;
+  position:relative;
+  z-index:2;
+  font-family: Merienda;
+  font-size: 20px;
+}
+
+.marca {
+   position: absolute;
+   width: 19%;
+   height: 59px;
+   box-sizing: border-box;
+   bottom: 0;
+   left: -30%;
+   border: 3px solid #1ABECC;
+   transition: 0.5s ease-in-out;
+   z-index:1;
+} 
+
+.menudes a:hover{
+	color: white;
+}
+.menudes a:hover ~ .marca {
+   margin-left: -1px;
+}
+.menudes a:nth-child(1):hover ~ .marca {
+  left: 10%; 
+}
+.menudes a:nth-child(2):hover ~ .marca {
+  left: 30%; /* 1/5 del ancho total */
+}
+.menudes a:nth-child(3):hover ~ .marca {
+  left: 50%; /* 2/5 del ancho total */
+}
+.menudes a:nth-child(4):hover ~ .marca {
+  left: 72%; /* 3/5 del ancho total */
+}
+.menudes a:nth-child(5):hover ~ .marca {
+  left: 25%; /* 4/5 del ancho total */
+}
+.aboutme{
+	text-align: center;
+	margin: 6% 0;
+	font-family: Merienda;
+	color: rgb(32, 177, 223);
+}
+.demi{
+	 p{
+       padding: 5% 10%;
+       margin: 0;
+       text-align: justify;
+       line-height: 2;
+       font-size: 18px;
+       font-family: Merienda;
+       color: rgb(47, 59, 61);
+       font-weight: 800;
+   }
+}
+.habilidades{
+	width: 100%;
+	text-align: center;
+    padding: 5% 0;
+	img{
+		width: 70%;
+	}
+}
+.contactame{
+	text-align: center;
+	margin: 6% 0;
+	font-family: Merienda;
+	color: rgb(32, 177, 223);
 }
