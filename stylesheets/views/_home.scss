@@ -57,6 +57,9 @@ html, body, {
          	height: 365px;
             width: 100%;
 }
+hr {
+  border-top: 1.5px dashed #20B1E1;
+}
 .texto{
 	text-align: center;
 	margin: 7% 0;
@@ -158,7 +161,7 @@ html, body, {
 .habilidades{
 	width: 100%;
 	text-align: center;
-    padding: 5% 0;
+  padding: 5% 0;
 	img{
 		width: 70%;
 	}
@@ -168,4 +171,25 @@ html, body, {
 	margin: 6% 0;
 	font-family: Merienda;
 	color: rgb(32, 177, 223);
+}
+
+.text-texto{
+     p {
+     margin: 0;
+     padding: 5% 10%;
+     text-align: justify;
+     font-size: 18px;
+     font-family: Merienda;
+     color: rgb(47, 59, 61);
+     font-weight: 800;
+   }
+}
+.contacteme{
+  padding: 0 6%;
+}
+.text-texto-contacto {
+  text-align: justify;
+}
+ul.contacto {
+  list-style: none;
 }

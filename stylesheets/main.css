@@ -5673,6 +5673,9 @@ html, body {
   height: 365px;
   width: 100%; }
 
+hr {
+  border-top: 1.5px dashed #20B1E1; }
+
 .texto {
   text-align: center;
   margin: 7% 0;
@@ -5781,5 +5784,23 @@ html, body {
   margin: 6% 0;
   font-family: Merienda;
   color: #20b1df; }
+
+.text-texto p {
+  margin: 0;
+  padding: 5% 10%;
+  text-align: justify;
+  font-size: 18px;
+  font-family: Merienda;
+  color: #2f3b3d;
+  font-weight: 800; }
+
+.contacteme {
+  padding: 0 6%; }
+
+.text-texto-contacto {
+  text-align: justify; }
+
+ul.contacto {
+  list-style: none; }
 
 /*# sourceMappingURL=main.css.map */
