@@ -5666,11 +5666,9 @@ html, body {
 .proyectos {
   padding: 5% 2%; }
   .proyectos .grid {
-    padding: 0;
-    height: 365px; }
+    padding: 0; }
 
 .carousel-inner > .item > a > img {
-  height: 365px;
   width: 100%; }
 
 hr {
@@ -5795,12 +5793,90 @@ hr {
   font-weight: 800; }
 
 .contacteme {
-  padding: 0 6%; }
+  padding: 5%; }
 
 .text-texto-contacto {
   text-align: justify; }
+  .text-texto-contacto p {
+    margin: 3%;
+    font-size: 18px;
+    font-family: Merienda; }
 
 ul.contacto {
-  list-style: none; }
+  list-style: none;
+  padding: 0; }
+  ul.contacto img {
+    display: inline-block;
+    width: 16%;
+    padding: 5%; }
+  ul.contacto p {
+    display: inline-block;
+    font-size: 18px;
+    font-family: Merienda; }
+
+.final {
+  height: 100px;
+  text-align: center; }
+  .final img {
+    margin: 0 auto;
+    height: 100%; }
+
+.formulario {
+  padding: 5%; }
+  .formulario form {
+    text-align: center; }
+
+.grupo-formulario.columna {
+  width: 100%; }
+
+.grupo-formulario.columna2 {
+  height: 150px; }
+
+.estilo-nombre {
+  width: 100%;
+  margin: 2% 0;
+  padding: 3%; }
+
+.correo {
+  width: 100%;
+  margin: 2% 0;
+  padding: 3%; }
+
+.mensaje {
+  width: 100%;
+  margin: 2% 0;
+  padding: 3%;
+  height: 100%; }
+
+.bt-enviar {
+  position: relative;
+  top: 20px; }
+
+.fin {
+  padding: 5% 0 10% 0; }
+
+.contac {
+  text-align: right; }
+  .contac img {
+    width: 3%; }
+
+.gmail {
+  width: 5%; }
+
+/*.foter {
+background-color: rgb(201, 201, 201);
+}
+
+
+.flecha {
+text-align: center;
+   .arriba{
+   border: 2px solid white;
+   border-radius: 50%;
+   position: relative;
+   top: -30px;
+   }
+}
+*/
 
 /*# sourceMappingURL=main.css.map */

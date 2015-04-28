@@ -1,4 +1,4 @@
-
+  
 
 /*http://img.tecnologiapyme.com/2010/07/beach_laptop.jpg
 http://cdn.webadictos.co/media/2013/07/Laptop-on-Beach-800x523.jpg
@@ -50,11 +50,9 @@ html, body, {
 	    padding: 5% 2%;
 		.grid{
          padding: 0;
-         height: 365px;
         }
     }
 .carousel-inner > .item > a > img {
-         	height: 365px;
             width: 100%;
 }
 hr {
@@ -184,12 +182,115 @@ hr {
      font-weight: 800;
    }
 }
+
 .contacteme{
-  padding: 0 6%;
+  padding: 5%;
 }
 .text-texto-contacto {
-  text-align: justify;
+  text-align: justify;  
+  p {
+  margin: 3%;
+  font-size: 18px;
+  font-family: Merienda;
+  }
 }
 ul.contacto {
   list-style: none;
+  padding: 0;
+   img {
+     display: inline-block;
+     width: 16%;
+     padding: 5%;
+     }
+   p {
+   display: inline-block;
+   font-size: 18px;
+   font-family: Merienda;
+   }
 }
+.final {
+ height: 100px;
+ text-align: center;
+  img {
+  margin: 0 auto;
+  height: 100%;
+  }
+}
+.formulario{
+ padding: 5%;
+    form {
+   text-align: center;
+   }  
+}
+.grupo-formulario.columna {
+   width: 100%;
+}
+.grupo-formulario.columna2 {
+   height: 150px;
+}
+.estilo-nombre {
+width: 100%;
+margin: 2% 0;
+padding: 3%;
+}
+.correo {
+width: 100%;
+margin: 2% 0;
+padding: 3%;
+}
+.mensaje {
+width: 100%;
+margin: 2% 0;
+padding: 3%;
+height: 100%;
+}
+.bt-enviar {
+position: relative;
+top: 20px;
+}
+.fin {
+padding: 5% 0 10% 0;
+}
+.contac{
+  text-align: right;
+  img {
+  width: 3%;
+  }
+}
+.gmail{
+  width: 5%;
+}
+
+/*.foter {
+background-color: rgb(201, 201, 201);
+}
+
+
+.flecha {
+text-align: center;
+   .arriba{
+   border: 2px solid white;
+   border-radius: 50%;
+   position: relative;
+   top: -30px;
+   }
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
