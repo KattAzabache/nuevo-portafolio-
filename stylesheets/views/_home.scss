@@ -1,5 +1,3 @@
-  
-
 /*http://img.tecnologiapyme.com/2010/07/beach_laptop.jpg
 http://cdn.webadictos.co/media/2013/07/Laptop-on-Beach-800x523.jpg
 http://www.cssauthor.com/wp-content/uploads/2014/09/Free-Macbook-Air-hipster-Mockups1.jpg
@@ -10,10 +8,10 @@ html, body, {
   height: 100%;
 }
 .container-fluid{
-	padding: 0;
+  padding: 0;
 }
 .row{
-		margin-left: 0;
+    margin-left: 0;
         margin-right: 0;
     }
 
@@ -27,10 +25,10 @@ html, body, {
 }
 .texto-principal {
    img{
-   	width: 100%;
-   	height: 100%;
-   	position: absolute;
-   	left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
    }
 
    h1{
@@ -47,8 +45,8 @@ html, body, {
   }
 }
 .proyectos{
-	    padding: 5% 2%;
-		.grid{
+      padding: 5% 2%;
+    .grid{
          padding: 0;
         }
     }
@@ -59,10 +57,10 @@ hr {
   border-top: 1.5px dashed #20B1E1;
 }
 .texto{
-	text-align: center;
-	margin: 7% 0;
-	font-family: Merienda;
-	color: rgb(32, 177, 223);
+  text-align: center;
+  margin: 7% 0;
+  font-family: Merienda;
+  color: rgb(32, 177, 223);
 }
 .tex{
    height: 365px;
@@ -73,13 +71,14 @@ hr {
    padding: 10.6% 75px;
    font-family: Merienda;
    span{
-	 text-align: justify;
-	 position: relative;
-	 top: 1px;
+   text-align: justify;
+   position: relative;
+   top: 1px;
      color: white;
      font-size: 19px;
    }
 }
+/*menu*/
 .menudes {
   position: fixed;
   overflow: hidden;
@@ -104,6 +103,53 @@ hr {
   font-family: Merienda;
   font-size: 20px;
 }
+.menu_bar {
+  display:none;
+}
+
+@media screen and (max-width: 700px) {
+  .menu_bar {
+    display:block;
+    width:100%;
+    position: fixed;
+    top:0;
+    background-color:rgba(153, 153, 153, 0.91);
+    z-index: 1000;
+  }
+  .menu_bar .bt-menu {
+    display: block;
+    padding: 10px;
+    color: black;
+    overflow: hidden;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: left;
+  }
+  .barra-de-navegacion nav{
+    width: 100%;
+    position: fixed;
+    right: 100%;
+    margin: 0;
+    z-index: 300;
+    height: calc(150% - 100px);
+    display: block;
+  }
+  .barra-de-navegacion nav a  {
+    display: block;
+    border-bottom:3px dashed rgba(255,255,255,.5);
+    padding: 10%;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    top: 80px;
+  }
+   nav.menudes {
+   text-align: center;
+   width: 100%;
+   background: rgb(224, 129, 177);
+   }
+}
 
 .marca {
    position: absolute;
@@ -117,35 +163,35 @@ hr {
    z-index:1;
 } 
 
-.menudes a:hover{
-	color: white;
+ .menudes a:hover{
+  color: white;
 }
-.menudes a:hover ~ .marca {
+ .menudes a:hover ~ .marca {
    margin-left: -1px;
 }
-.menudes a:nth-child(1):hover ~ .marca {
+ .menudes a:nth-child(1):hover ~ .marca {
   left: 10%; 
 }
-.menudes a:nth-child(2):hover ~ .marca {
+ .menudes a:nth-child(2):hover ~ .marca {
   left: 30%; /* 1/5 del ancho total */
 }
-.menudes a:nth-child(3):hover ~ .marca {
+ .menudes a:nth-child(3):hover ~ .marca {
   left: 50%; /* 2/5 del ancho total */
 }
-.menudes a:nth-child(4):hover ~ .marca {
+ .menudes a:nth-child(4):hover ~ .marca {
   left: 72%; /* 3/5 del ancho total */
 }
-.menudes a:nth-child(5):hover ~ .marca {
+ .menudes a:nth-child(5):hover ~ .marca {
   left: 25%; /* 4/5 del ancho total */
 }
 .aboutme{
-	text-align: center;
-	margin: 6% 0;
-	font-family: Merienda;
-	color: rgb(32, 177, 223);
+  text-align: center;
+  margin: 6% 0;
+  font-family: Merienda;
+  color: rgb(32, 177, 223);
 }
 .demi{
-	 p{
+   p{
        padding: 5% 10%;
        margin: 0;
        text-align: justify;
@@ -153,22 +199,22 @@ hr {
        font-size: 18px;
        font-family: Merienda;
        color: rgb(47, 59, 61);
-       font-weight: 800;
+       font-weight: 500;
    }
 }
 .habilidades{
-	width: 100%;
-	text-align: center;
+  width: 100%;
+  text-align: center;
   padding: 5% 0;
-	img{
-		width: 70%;
-	}
+  img{
+    width: 70%;
+  }
 }
 .contactame{
-	text-align: center;
-	margin: 6% 0;
-	font-family: Merienda;
-	color: rgb(32, 177, 223);
+  text-align: center;
+  margin: 6% 0;
+  font-family: Merienda;
+  color: rgb(32, 177, 223);
 }
 
 .text-texto{
@@ -206,6 +252,7 @@ ul.contacto {
    display: inline-block;
    font-size: 18px;
    font-family: Merienda;
+  font-weight: 500;
    }
 }
 .final {
@@ -232,17 +279,26 @@ ul.contacto {
 width: 100%;
 margin: 2% 0;
 padding: 3%;
+border: 1.5px dashed rgb(0, 180, 253);
+background-color: rgb(252, 252, 252);
+ font-family: Merienda;
 }
 .correo {
 width: 100%;
 margin: 2% 0;
 padding: 3%;
+border: 1.5px dashed rgb(0, 180, 253);
+background-color: rgb(252, 252, 252);
+ font-family: Merienda;
 }
 .mensaje {
 width: 100%;
 margin: 2% 0;
 padding: 3%;
 height: 100%;
+border: 1.5px dashed rgb(0, 180, 253);
+background-color: rgb(252, 252, 252);
+font-family: Merienda;
 }
 .bt-enviar {
 position: relative;
@@ -252,15 +308,29 @@ top: 20px;
 padding: 5% 0 10% 0;
 }
 .contac{
-  text-align: right;
+  text-align: center;
   img {
-  width: 3%;
+  width: 5%;
+  }
+  h6{
+    font-family: Merienda;
+    font-size: 16px;
   }
 }
 .gmail{
   width: 5%;
 }
 
+button.butoncolor {
+  background-color: rgba(209, 209, 209, 0.2);
+  border-radius: 10px;
+  border: 1px solid skyblue;
+  padding: 2% 5%;
+}
+a {
+  color: rgb(32, 206, 244);
+  font-family: Merienda;
+} 
 /*.foter {
 background-color: rgb(201, 201, 201);
 }
@@ -276,21 +346,3 @@ text-align: center;
    }
 }
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

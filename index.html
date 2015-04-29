@@ -1,44 +1,52 @@
 <!DOCTYPE html>
 <head>
-	  <meta charset ="utf-8">
-		<title> portafolio </title>
-		<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
-	    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
-	    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	    <link rel="stylesheet" type="text/css" href="fonts">
-	    <link rel="icon" type="image/png" href="img/LOGO.png">
-        <link href='http://fonts.googleapis.com/css?family=Merienda&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Niconne&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <meta charset ="utf-8">
+    <title> portafolio </title>
+      <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+      <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+      <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="fonts">
+      <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+      <script src="http://code.jquery.com/jquery-latest.js"></script>
+      <link rel="icon" type="image/png" href="img/LOGO.png">
+      <link href='http://fonts.googleapis.com/css?family=Merienda&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Niconne&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+      <script src="mi-script.js"></script>  
 </head>
-	<body>
-		<div class="container-fluid">
-			<div class="menudes">
-               <a href="#inicio">Inicio</a>
-               <a href="#proyectos">Proyectos</a>
-               <a href="">Sobre mi</a>
-               <a href="">Contacto</a>
-               <div class="marca"></div>
+  <body>
+    <div class="container-fluid">
+        <header class="barra-de-navegacion">
+            <div class="menu_bar">
+               <a href="#" class="bt-menu">=</a>
             </div>
+              <nav class="menudes">
+                 <a href="#inicio">Inicio</a>
+                 <a href="#proyectos">Proyectos</a>
+                 <a href="#sobremi">Sobre mi</a>                 
+                 <a href="#contac">Contacto</a>
+                 <div class="marca"></div>
+              </nav>
+        </header>
             <header class="header" id="inicio">
-             				<div class="texto-principal">
-             					<img src="http://www.wacapaka.com/wp-content/uploads/wallpaper-copos-pc.jpg">
-             					<h1>Katherine Azabache</h1>
-             				</div>
+                    <div class="texto-principal">
+                      <img src="http://www.wacapaka.com/wp-content/uploads/wallpaper-copos-pc.jpg">
+                      <h1>Katherine Azabache</h1>
+                    </div>
             </header>
             <section class="texto">
-            	<div class="row">
-            		<div class="col-12">
-            			<h1> <hr> Mis Proyectos <hr></h1>
-            		</div>
-            	</div>
-            </section>
-            <section class="proyectos" id="proyectos">
               <div class="row">
-              	<div class="tex col-md-6 hidden-xs">
-				    	<span>Aqui encontraremos algunos de mis proyectos que realze poco a poco con ayuda de laboratoria quien me enseño a realizar estos proyectos </span>
-			    </div>
-              	<div class="grid col-md-6 col-xs-12 ">
-			       <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <div class="col-12" id="proyectos">
+                  <h1> <hr> Mis Proyectos <hr></h1>
+                </div>
+              </div>
+            </section>
+            <section class="proyectos">
+              <div class="row">
+                <div class="tex col-md-6 hidden-xs">
+              <span>Aqui encontraremos algunos de mis proyectos que realze poco a poco con ayuda de laboratoria quien me enseño a realizar estos proyectos </span>
+          </div>
+                <div class="grid col-md-6 col-xs-12 ">
+             <div id="myCarousel" class="carousel slide" data-ride="carousel">
                      <!-- Indicators -->
                     <ol class="carousel-indicators">
                       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -84,57 +92,57 @@
                     </a>
                 </div>
               </div>
-			   
-		   </div>
+         
+       </div>
 
           </section>
           <section class="aboutme">
-            	<div class="row">
-            		<div class="col-12">
-            			<h1><hr> Sobre mi  <hr></h1>
-            		</div>
-            	</div>
+              <div class="row">
+                <div class="col-12"id ="sobremi">
+                  <h1><hr> Sobre mi  <hr></h1>
+                </div>
+              </div>
            </section>
-           <section class="demi">
-           	 <p>Hola soy Katty Azabache tengo 18 años soy programadora web y futura diseñadora, además soy muy buena con los trabajos manuales ya que estudié manualidades y también estudie dibujo manga y cominc donde me enseñaron muy buenas técnicas de dibujo y combinacion de colores con varias tecnica con lápices,acuarélas,tizas,etc </p>
-           	 <div class="habilidades"><img src="img/capacidades.png"></div>
+           <section class="demi"  >
+             <p>Hola soy Katty Azabache tengo 18 años soy programadora web y futura diseñadora, además soy muy buena con los trabajos manuales ya que estudié manualidades y también estudie dibujo manga y cominc donde me enseñaron muy buenas técnicas de dibujo y combinacion de colores con varias tecnica con lápices,acuarélas,tizas,etc </p>
+             <div class="habilidades"><img src="img/capacidades.png"></div>
            </section>
             <section class="contactame">
-            	<div class="row">
-            		<div class="col-12">
-            			<h1><hr> Contacto <hr></h1>
-            		</div>
-            	</div>
+              <div class="row">
+                <div class="col-12"id="contac">
+                  <h1><hr> Contacto <hr></h1>
+                </div>
+              </div>
            </section>
-           <section class="container fin">
+           <section class="container fin" >
            <div class="final"><img src="img/LOGO.png"></div> 
-           	<div class="row">
-           		<div class="col-md-6 col-sm-6 contacteme">               
-       					<div class="text-texto-contacto">
-       							<p>Hola soy Katherine Azabache si a usted le gusta alguna página web en especial y desea realizarlo al emprendimiento o empresa no dude en contactarme ya que con mis habilidades lo puedes realizar, simplemente contácteme y podra realizar su pagina web deseada.
-       							</p>
-       					</div>
-       					<ul class="contacto">
-       								<li>
-       									<img src="img/correo.png"><p> kattyazabache.z@gmail.com</p>
-       								</li>								
-       								<li>
-       									<img src="img/ubicam.png"><p> Lima -Perú</p>
-       								</li>       
+            <div class="row">
+              <div class="col-md-6 col-sm-6 contacteme">               
+                <div class="text-texto-contacto">
+                    <p>Hola soy Katherine Azabache si a usted le gusta alguna página web en especial y desea realizarlo al emprendimiento o empresa no dude en contactarme ya que con mis habilidades lo puedes realizar, simplemente contácteme y podra realizar su pagina web deseada.
+                    </p>
+                </div>
+                <ul class="contacto">
+                      <li>
+                        <img src="img/correo.png"><p> kattyazabache.z@gmail.com</p>
+                      </li>               
+                      <li>
+                        <img src="img/ubicam.png"><p> Lima -Perú</p>
+                      </li>       
 
                 </ul>
-       					<!--<div class="redes">
-       						<a href="https://facebook.com" target="blank">
-       						  <img src="img/facebook.png">
-       					  </a>
-       						<a href="https://twitter.com" target="blank">
-       						  <img src="img/redes/twitter.png">
-       					  </a>
-       					  <a href="https://github.com/" target="blank">
-       						  <img src="img/redes/github.png">
-       					  </a>
-       					</div>-->
-       				</div>
+                <!--<div class="redes">
+                  <a href="https://facebook.com" target="blank">
+                    <img src="img/facebook.png">
+                  </a>
+                  <a href="https://twitter.com" target="blank">
+                    <img src="img/redes/twitter.png">
+                  </a>
+                  <a href="https://github.com/" target="blank">
+                    <img src="img/redes/github.png">
+                  </a>
+                </div>-->
+              </div>
         <div class="col-md-6 col-sm-6 formulario">
               <form action="" >
                       <div class="grupo-formulario columna">
@@ -146,18 +154,19 @@
                        <div class="grupo-formulario columna2">
                           <textarea placeholder="Mensaje" cols="47" rows="10" class="mensaje"></textarea>
                        </div> 
-                      <div class="buton bt-enviar"> <button class="butoncolor" type="submit"><a href="http://katty-azabache.github.io/reto/">ENVIAR</a></button> 
+                      <div class="buton bt-enviar"> <button class="butoncolor" type="submit"><a href="">ENVIAR</a></button> 
                       </div>
               </form>
-				</div>
-      	</div>
+        </div>
+        </div>
         </section>
         <section class="foter">
           <div class="contac">
             <hr>           
-              <a href="http://www.facebook.com/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjBnJRIAYIKEW8eOUCwQVa8uPIgcwKKVbS3DdPJAJDrEFEAvno"></a>
-              <a href="http://www.twiter.com/"><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQO2iBY1e0NwdH0nApc0tTisy1h9r9xo1Z-H-dGHVuubnAg_I_l"></a>
-              <a href="http://www.gmail.com/"><img class="gmail"  src="http://www.retramp.com/images/icons/google-logo-square-webtreatsetc.png"></a>           
+              <h6>Tambien puedes encontrarme en:</h6>                       
+              <a href="http://www.facebook.com/"><img src="img/fb.png"></a>
+              <a href="http://www.twitter.com/"><img src="img/tw.png"></a>
+              <a href="http://www.gmail.com/"><img src="img/gm.png"></a>          
             <hr>
           </div>
         </section>
@@ -169,10 +178,14 @@
           <div class="container redes">
             <a href="http://www.facebook.com/"><img src="img/facebook.png"></a>
           </div> -->
-		</div>
+    </div> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>       
+    <!-- Javascripts de Bootstrap -->
+   <script src="javascript/b3/collapse.js"></script>
+   <script src="javascript/b3/transition.js"></script>
 
-	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-	</body>
+
+  </body>
 </html>
 

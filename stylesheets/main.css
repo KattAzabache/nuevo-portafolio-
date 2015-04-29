@@ -5695,6 +5695,7 @@ hr {
     color: white;
     font-size: 19px; }
 
+/*menu*/
 .menudes {
   position: fixed;
   overflow: hidden;
@@ -5718,6 +5719,50 @@ hr {
   font-family: Merienda;
   font-size: 20px; }
 
+.menu_bar {
+  display: none; }
+
+@media screen and (max-width: 700px) {
+  .menu_bar {
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgba(153, 153, 153, 0.91);
+    z-index: 1000; }
+
+  .menu_bar .bt-menu {
+    display: block;
+    padding: 10px;
+    color: black;
+    overflow: hidden;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: left; }
+
+  .barra-de-navegacion nav {
+    width: 100%;
+    position: fixed;
+    right: 100%;
+    margin: 0;
+    z-index: 300;
+    height: calc(150% - 100px);
+    display: block; }
+
+  .barra-de-navegacion nav a {
+    display: block;
+    border-bottom: 3px dashed rgba(255, 255, 255, 0.5);
+    padding: 10%;
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    top: 80px; }
+
+  nav.menudes {
+    text-align: center;
+    width: 100%;
+    background: #e081b1; } }
 .marca {
   position: absolute;
   width: 19%;
@@ -5768,7 +5813,7 @@ hr {
   font-size: 18px;
   font-family: Merienda;
   color: #2f3b3d;
-  font-weight: 800; }
+  font-weight: 500; }
 
 .habilidades {
   width: 100%;
@@ -5812,7 +5857,8 @@ ul.contacto {
   ul.contacto p {
     display: inline-block;
     font-size: 18px;
-    font-family: Merienda; }
+    font-family: Merienda;
+    font-weight: 500; }
 
 .final {
   height: 100px;
@@ -5835,18 +5881,27 @@ ul.contacto {
 .estilo-nombre {
   width: 100%;
   margin: 2% 0;
-  padding: 3%; }
+  padding: 3%;
+  border: 1.5px dashed #00b4fd;
+  background-color: #fcfcfc;
+  font-family: Merienda; }
 
 .correo {
   width: 100%;
   margin: 2% 0;
-  padding: 3%; }
+  padding: 3%;
+  border: 1.5px dashed #00b4fd;
+  background-color: #fcfcfc;
+  font-family: Merienda; }
 
 .mensaje {
   width: 100%;
   margin: 2% 0;
   padding: 3%;
-  height: 100%; }
+  height: 100%;
+  border: 1.5px dashed #00b4fd;
+  background-color: #fcfcfc;
+  font-family: Merienda; }
 
 .bt-enviar {
   position: relative;
@@ -5856,12 +5911,25 @@ ul.contacto {
   padding: 5% 0 10% 0; }
 
 .contac {
-  text-align: right; }
+  text-align: center; }
   .contac img {
-    width: 3%; }
+    width: 5%; }
+  .contac h6 {
+    font-family: Merienda;
+    font-size: 16px; }
 
 .gmail {
   width: 5%; }
+
+button.butoncolor {
+  background-color: rgba(209, 209, 209, 0.2);
+  border-radius: 10px;
+  border: 1px solid skyblue;
+  padding: 2% 5%; }
+
+a {
+  color: #20cef4;
+  font-family: Merienda; }
 
 /*.foter {
 background-color: rgb(201, 201, 201);
