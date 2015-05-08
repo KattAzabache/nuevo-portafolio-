@@ -150,6 +150,61 @@ hr {
 .menu_bar {
   display:none;
 }
+.imagen {
+color: transparent; 
+font-size: 50px;
+font-family: Merienda;
+text-transform: uppercase;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+transition: all 0.5s ease;
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease
+}
+.imagen h2{
+    font-size: 30px;
+}
+@media screen and (max-width: 800px){
+  .imagen h2{
+    font-size: 18px;
+   }
+}
+.imagen:hover {
+line-height: 133px;
+color: rgba(241, 16, 100, 1);
+}
+.imagen {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.imagen:hover {
+  -webkit-filter: grayscale(100%);
+}
+.imagen {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ .imgagen:hover {
+    height: 133px;
+    width: 400px;
+    margin-left: -50px;
+}
+.imagen:hover {
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
 
 @media screen and (max-width: 700px) {
   .menu_bar {
@@ -250,7 +305,7 @@ hr {
 .habilidades{
   width: 100%;
   text-align: center;
-  padding: 5% 0;
+  padding: 3% 5%;
   img{
     width: 70%;
   }
