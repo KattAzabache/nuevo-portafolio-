@@ -5795,7 +5795,8 @@ hr {
     margin: 0;
     z-index: 300;
     height: calc(150% - 100px);
-    display: block; }
+    display: block;
+    overflow: scroll; }
 
   .barra-de-navegacion nav a {
     display: block;

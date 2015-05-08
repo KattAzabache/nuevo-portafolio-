@@ -178,6 +178,7 @@ hr {
     z-index: 300;
     height: calc(150% - 100px);
     display: block;
+    overflow: scroll;
   }
   .barra-de-navegacion nav a  {
     display: block;
