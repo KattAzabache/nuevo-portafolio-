@@ -5961,7 +5961,9 @@ hr {
   .text-texto-contacto p {
     margin: 3%;
     font-size: 18px;
-    font-family: Merienda; }
+    font-family: Merienda;
+    font-weight: 500;
+    line-height: 2; }
 
 ul.contacto {
   list-style: none;
