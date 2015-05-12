@@ -5639,12 +5639,12 @@ html, body {
 
 .container-fluid {
   padding: 0;
-  background-image: url(http://m.rgbimg.com/cache1tXEKt/users/g/ge/gesinek/600/nVgdelU.jpg);
+  background-image: url(http://hdscreen.me/thumbs/sports/motorola-cameras-coffee-compaq-laptops-2530899-480x320.jpg);
   background-size: cover;
   background-attachment: fixed; }
 
 .color {
-  background-color: rgba(228, 222, 222, 0.81);
+  background-color: rgba(245, 240, 240, 0.85);
   height: 100%; }
 
 .row {
@@ -5726,13 +5726,14 @@ html, body {
   width: 100%; }
 
 hr {
-  border-top: 1.5px dashed #20B1E1; }
+  border-top: 2px dashed #20B1E1; }
 
 .texto {
   text-align: center;
   margin: 7% 0;
   font-family: Merienda;
-  color: #20b1df; }
+  color: #20b1df;
+  font-weight: 700; }
 
 .tex {
   height: 365px;
