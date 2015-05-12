@@ -18,8 +18,17 @@ function main () {
 	});
 } 
 
-
-
+$(document).ready(function(){
+  $(window).scroll(function(){
+  var prueba = $(this).scrollTop();
+  if (prueba > 658) {
+  $(".barra-de-navegacion").addClass("menu-color");
+  }
+  else if (prueba < 658) {
+  $(".barra-de-navegacion").removeClass("menu-color");
+  }
+  });
+});
 
 
 
