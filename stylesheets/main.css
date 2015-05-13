@@ -5639,16 +5639,13 @@ html, body {
 
 .container-fluid {
   padding: 0;
-  background-image: url(http://pixabay.com/static/uploads/photo/2015/01/18/13/34/desk-602975_640.jpg);
+  background-image: url(http://www.freejpg.com.ar/asset/900/02/027b/F100006448.jpg);
   background-size: cover;
   background-attachment: fixed; }
 
 .color {
-  background-color: rgba(255, 255, 255, 0.92);
+  background-color: rgba(255, 255, 255, 0.81);
   height: 100%; }
-
-.menu-color {
-  background: blue; }
 
 .row {
   margin-left: 0;
@@ -5668,7 +5665,7 @@ html, body {
   background-attachment: fixed; }
   .texto-principal .name {
     padding: 20% 0;
-    background-color: rgba(252, 250, 250, 0.35); }
+    background-color: rgba(8, 8, 8, 0.35); }
     .texto-principal .name h1 {
       text-align: center;
       position: relative;
@@ -5677,36 +5674,33 @@ html, body {
       width: 100%;
       font-family: 'Nova Square', cursive;
       font-size: 90px;
-      color: #0E5499;
-      padding-bottom: 1%;
-      background: rgba(234, 240, 241, 0.71); }
+      color: white;
+      padding-bottom: 1%; }
     .texto-principal .name h3 {
       z-index: 10;
-      background: rgba(234, 240, 241, 0.71);
-      font-size: 25px;
-      color: #118FBD;
+      font-size: 30px;
+      color: #dd4a56;
       padding: 1%;
       text-align: center;
       position: relative;
       top: 0;
       margin: 0;
       width: 100%;
-      font-family: 'Lato', sans-serif;
+      font-family: 'Nova Square', cursive;
       font-weight: 600; }
 
 @media screen and (max-width: 650px) {
   .texto-principal .name h3 {
     z-index: 10;
-    background: rgba(234, 240, 241, 0.71);
-    font-size: 15px;
-    color: #17BEF3;
+    font-size: 30px;
+    color: #dd4a56;
     padding: 0;
     text-align: center;
     position: relative;
     top: 0;
     margin: 0;
     width: 100%;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Nova Square', cursive;
     font-weight: 600; }
 
   .texto-principal .name h1 {
@@ -5718,7 +5712,7 @@ html, body {
     width: 100%;
     font-family: 'Nova Square', cursive;
     font-size: 70px;
-    color: #0E5499;
+    color: white;
     padding-bottom: 1%; } }
 .proyectos {
   padding: 5% 2%; }
@@ -5729,13 +5723,13 @@ html, body {
   width: 100%; }
 
 hr {
-  border-top: 2px dashed #20B1E1; }
+  /* border-top: 2px dashed #dd4a56;*/ }
 
 .texto {
   text-align: center;
   margin: 7% 0;
   font-family: 'Nova Square', cursive;
-  color: #20b1df;
+  color: #dd4a56;
   font-weight: 700; }
 
 .tex {
@@ -5760,7 +5754,8 @@ hr {
   width: 100%;
   margin: 0 auto 10px;
   text-align: center;
-  z-index: 50; }
+  z-index: 50;
+  background-color: black; }
 
 .menudes a {
   display: inline-block;
@@ -5768,7 +5763,7 @@ hr {
   /* 100% dividido por el n├║mero de elementos */
   box-sizing: border-box;
   padding: 15px 5px;
-  color: rgba(15, 51, 129, 0.97);
+  color: white;
   text-decoration: none;
   text-align: center;
   position: relative;
@@ -5785,13 +5780,13 @@ hr {
     width: 100%;
     position: fixed;
     top: 0;
-    background-color: rgba(153, 153, 153, 0.91);
+    background-color: black;
     z-index: 1000; }
 
   .menu_bar .bt-menu {
     display: block;
     padding: 10px;
-    color: black;
+    color: #dd4a56;
     overflow: hidden;
     font-size: 30px;
     font-weight: bold;
@@ -5816,13 +5811,16 @@ hr {
     font-size: 30px;
     width: 100%;
     top: 80px;
-    color: white;
+    color: #dd4a56;
     font-family: 'Nova Square', cursive; }
 
   nav.menudes {
     text-align: center;
     width: 100%;
-    background-color: rgba(15, 51, 129, 0.97); } }
+    background-color: white; }
+
+  nav a:hover {
+    border-right: 1px solid #dd4a56; } }
 .marca {
   position: absolute;
   width: 19%;
@@ -5830,12 +5828,10 @@ hr {
   box-sizing: border-box;
   bottom: 0;
   left: -30%;
-  border: 3px solid #0E5499;
+  border: 3px solid #F8A2AC;
   transition: 0.5s ease-in-out;
-  z-index: 1; }
-
-.menudes a:hover {
-  color: white; }
+  z-index: 1;
+  background-color: #dd4a56; }
 
 .menudes a:hover ~ .marca {
   margin-left: -1px; }
@@ -5914,13 +5910,13 @@ hr {
 .tema {
   width: 100%;
   height: 35%;
-  background-color: rgba(250, 244, 244, 0.86);
+  background-color: white;
   position: relative;
   top: 65%;
   text-align: center;
   padding: 10px; }
   .tema h2 {
-    color: #147BA8;
+    color: #E64666;
     font-family: 'Lato', sans-serif; }
 
 /*sobremi*/
@@ -5928,7 +5924,7 @@ hr {
   text-align: center;
   margin: 6% 0;
   font-family: 'Nova Square', cursive;
-  color: #20b1df; }
+  color: #dd4a56; }
 
 .demi p {
   padding: 5% 10%;
@@ -5944,7 +5940,7 @@ hr {
   text-align: center;
   margin: 6% 0;
   font-family: 'Nova Square', cursive;
-  color: #20b1df; }
+  color: #dd4a56; }
 
 .habilidades img {
   width: 100%; }
@@ -5953,22 +5949,23 @@ hr {
 
 .imagen {
   color: transparent;
-  font-size: 50px;
-  font-family: Merienda;
+  font-family: Lato;
   text-transform: uppercase;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease; }
+  .imagen h2 {
+    font-size: 25px; }
 
 .imagen:hover {
   line-height: 133px;
-  color: #f11064; }
+  color: #dd4a56; }
 
 .imagen img {
   float: left;
   margin: 0 15px 5%;
-  padding: 4%; }
+  padding: 11%; }
 
 .imagen {
   -webkit-transition: all 1s ease;
@@ -6003,7 +6000,7 @@ hr {
   text-align: center;
   margin: 6% 0;
   font-family: 'Nova Square', cursive;
-  color: #20b1df; }
+  color: #dd4a56; }
 
 .text-texto p {
   margin: 0;
@@ -6015,7 +6012,7 @@ hr {
   font-weight: 800; }
 
 .contacteme {
-  padding: 5%; }
+  padding: 5% 8%; }
 
 .text-texto-contacto {
   text-align: justify; }
@@ -6024,16 +6021,13 @@ hr {
     font-size: 18px;
     font-family: 'Lato', sans-serif;
     font-weight: 600;
-    line-height: 2; }
+    line-height: 2;
+    text-align: center; }
 
-ul.contacto {
+.contacto {
   list-style: none;
   padding: 0; }
-  ul.contacto img {
-    display: inline-block;
-    width: 16%;
-    padding: 5%; }
-  ul.contacto p {
+  .contacto p {
     display: inline-block;
     font-size: 18px;
     font-family: 'Lato', sans-serif;
@@ -6057,48 +6051,16 @@ ul.contacto {
 .grupo-formulario.columna2 {
   height: 150px; }
 
-.estilo-nombre {
-  width: 100%;
-  margin: 2% 0;
-  padding: 3%;
-  border: 1.5px dashed #00b4fd;
-  background-color: #fcfcfc;
-  font-family: 'Lato', sans-serif; }
-
-.correo {
-  width: 100%;
-  margin: 2% 0;
-  padding: 3%;
-  border: 1.5px dashed #00b4fd;
-  background-color: #fcfcfc;
-  font-family: 'Lato', sans-serif; }
-
-.mensaje {
-  width: 100%;
-  margin: 2% 0;
-  padding: 3%;
-  height: 100%;
-  border: 1.5px dashed #00b4fd;
-  background-color: #fcfcfc;
-  font-family: 'Lato', sans-serif; }
-
-.bt-enviar {
-  position: relative;
-  top: 20px; }
-
 .fin {
   padding: 5% 0 10% 0; }
 
 .contac {
   text-align: center; }
-  .contac img {
-    width: 5%; }
   .contac h6 {
     font-family: 'Lato', sans-serif;
-    font-size: 16px; }
-
-.gmail {
-  width: 5%; }
+    font-size: 16px;
+    padding: 3% 4%;
+    font-weight: 5s00; }
 
 button.butoncolor {
   background-color: rgba(209, 209, 209, 0.2);
@@ -6110,20 +6072,56 @@ a {
   color: #20cef4;
   font-family: 'Lato', sans-serif; }
 
-/*.foter {
-background-color: rgb(201, 201, 201);
-}
+.foter {
+  background-color: black;
+  text-align: center; }
+  .foter h5 {
+    color: white;
+    padding: 1%;
+    margin: 0; }
 
+#flecha {
+  display: block;
+  width: 0;
+  height: 0;
+  border: 10px solid #0e0d0d;
+  border-color: transparent transparent #eb6060;
+  border-width: 10px 35px 36px 35px;
+  top: -45px;
+  margin: 0 auto;
+  position: relative; }
 
-.flecha {
-text-align: center;
-   .arriba{
-   border: 2px solid white;
-   border-radius: 50%;
-   position: relative;
-   top: -30px;
-   }
-}
-*/
+button.btn.btn-primary {
+  background: transparent;
+  width: 8%;
+  border: 0;
+  padding: 0; }
+  button.btn.btn-primary img {
+    width: 100%; }
+
+button.btn.btn-primary:hover {
+  background-color: #eb6060; }
+
+button.btn.btn-primary2 {
+  background: transparent;
+  width: 8%;
+  border: 0;
+  padding: 0; }
+  button.btn.btn-primary2 img {
+    width: 100%; }
+
+button.btn.btn-primary2:hover {
+  background-color: skyblue; }
+
+button.btn.btn-primary3 {
+  background: transparent;
+  width: 7%;
+  border: 0;
+  padding: 0; }
+  button.btn.btn-primary3 img {
+    width: 100%; }
+
+button.btn.btn-primary3:hover {
+  background-color: blue; }
 
 /*# sourceMappingURL=main.css.map */
