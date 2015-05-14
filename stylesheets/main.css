@@ -5674,12 +5674,12 @@ html, body {
       width: 100%;
       font-family: 'Lobster', cursive;
       font-size: 70px;
-      color: white;
+      color: #E82946;
       padding-bottom: 1%; }
     .texto-principal .name h3 {
       z-index: 10;
-      font-size: 27px;
-      color: #dd4a56;
+      font-size: 30px;
+      color: white;
       padding: 1%;
       text-align: center;
       position: relative;
@@ -5689,11 +5689,18 @@ html, body {
       font-family: 'Lobster', cursive;
       font-weight: 600; }
 
+@media screen and (max-width: 400px) {
+  .texto-principal .name {
+    padding: 40% 0;
+    background-color: rgba(8, 8, 8, 0.35); }
+
+  ┬┤p {
+    padding: 5% 13%; } }
 @media screen and (max-width: 650px) {
   .texto-principal .name h3 {
     z-index: 10;
     font-size: 20px;
-    color: #dd4a56;
+    color: white;
     padding: 0;
     text-align: center;
     position: relative;
@@ -5712,7 +5719,7 @@ html, body {
     width: 100%;
     font-family: 'Lobster', cursive;
     font-size: 40px;
-    color: white;
+    color: #E82946;
     padding-bottom: 1%; } }
 .proyectos {
   padding: 5% 2%; }
@@ -5723,14 +5730,14 @@ html, body {
   width: 100%; }
 
 hr {
-  /* border-top: 2px dashed #dd4a56;*/
+  /* border-top: 2px dashed #6C7A89;*/
   margin: 0; }
 
 .texto {
   text-align: center;
-  margin: 4% 0;
+  padding: 4% 0;
   font-family: 'Lobster', cursive;
-  color: #dd4a56;
+  color: #6C7A89;
   font-weight: 700; }
 
 .tex {
@@ -5786,8 +5793,8 @@ hr {
 
   .menu_bar .bt-menu {
     display: block;
-    padding: 10px;
-    color: #dd4a56;
+    padding: 1%;
+    color: #E82946;
     overflow: hidden;
     font-size: 30px;
     font-weight: bold;
@@ -5806,22 +5813,19 @@ hr {
 
   .barra-de-navegacion nav a {
     display: block;
-    border-bottom: 3px dashed rgba(255, 255, 255, 0.5);
-    padding: 10%;
+    border-bottom: 1px dashed #E82946;
+    padding: 7%;
     text-align: center;
     font-size: 30px;
     width: 100%;
     top: 80px;
-    color: #dd4a56;
-    ffont-family: 'Lobster', cursive; }
+    color: #E82946;
+    font-family: 'Lobster', cursive; }
 
   nav.menudes {
     text-align: center;
     width: 100%;
-    background-color: white; }
-
-  nav a:hover {
-    border-right: 1px solid #dd4a56; } }
+    background-color: white; } }
 .marca {
   position: absolute;
   width: 19%;
@@ -5829,10 +5833,10 @@ hr {
   box-sizing: border-box;
   bottom: 0;
   left: -30%;
-  border: 3px solid #F8A2AC;
+  border: 3px solid white;
   transition: 0.5s ease-in-out;
   z-index: 1;
-  background-color: #dd4a56; }
+  background-color: #E82946; }
 
 .menudes a:hover ~ .marca {
   margin-left: -1px; }
@@ -5926,9 +5930,9 @@ hr {
 /*sobremi*/
 .aboutme {
   text-align: center;
-  margin: 3% 0;
+  padding: 4% 0;
   font-family: 'Lobster', cursive;
-  color: #dd4a56; }
+  color: #6C7A89; }
 
 .demi p {
   padding: 5% 25%;
@@ -5940,11 +5944,31 @@ hr {
   color: #2f3b3d;
   font-weight: 600; }
 
+@media screen and (max-width: 710px) {
+  .demi p {
+    padding: 0 10%;
+    margin: 0;
+    text-align: justify;
+    line-height: 2;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    color: #2f3b3d;
+    font-weight: 300; } }
+@media screen and (max-width: 560px) {
+  .demi p {
+    padding: 0 5%;
+    margin: 0;
+    text-align: justify;
+    line-height: 2;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    color: #2f3b3d;
+    font-weight: 300; } }
 .habilidades {
   text-align: center;
   margin: 3% 0;
   font-family: 'Lobster', cursive;
-  color: #dd4a56; }
+  color: #6C7A89; }
 
 @media screen and (max-width: 993px) {
   .habilidades {
@@ -5965,7 +5989,7 @@ hr {
 
 .imagen:hover {
   line-height: 133px;
-  color: #dd4a56; }
+  color: #6C7A89; }
 
 .imagen img {
   float: left;
@@ -5997,15 +6021,15 @@ hr {
   transform: rotate(-10deg); }
 
 .habilidades .row {
-  padding: 3% 5%; }
+  padding: 0 5%; }
   .habilidades .row .col-md-3 {
     padding: 5%; }
 
 .contactame {
   text-align: center;
-  margin: 2% 0;
+  padding: 2% 0;
   font-family: 'Lobster', cursive;
-  color: #dd4a56; }
+  color: #6C7A89; }
 
 .text-texto p {
   margin: 0;
@@ -6017,12 +6041,27 @@ hr {
   font-weight: 800; }
 
 .contacteme {
-  padding: 5% 8%; }
+  /*  padding: 5% 8%;*/ }
 
+@media screen and (max-width: 710px) {
+  .text-texto-contacto p {
+    padding: 0 10%;
+    margin: 0;
+    text-align: justify;
+    line-height: 2;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    color: #2f3b3d;
+    font-weight: 300; } }
+@media screen and (max-width: 730px) {
+  .fin .contac h6 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1px;
+    padding: 3% 4%;
+    font-weight: 300; } }
 .text-texto-contacto {
   text-align: justify; }
   .text-texto-contacto p {
-    padding: 0 19%;
     font-size: 18px;
     font-family: 'Lato', sans-serif;
     font-weight: 600;
@@ -6062,14 +6101,6 @@ hr {
   text-align: center; }
   .contac h6 {
     font-family: 'Lato', sans-serif;
-    font-size: 16px;
-    padding: 3% 4%;
-    font-weight: 5s00; }
-
-.contac {
-  text-align: center; }
-  .contac h6 {
-    font-family: 'Lato', sans-serif;
     font-size: 17px;
     padding: 3% 4%;
     font-weight: 600; }
@@ -6090,15 +6121,16 @@ a {
   margin-top: 3%; }
   .foter h5 {
     color: white;
-    padding: 1%;
-    margin: 0; }
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif; }
 
 .triangulo {
   display: block;
   width: 0;
   height: 0;
   border: 10px solid #0e0d0d;
-  border-color: transparent transparent #eb6060;
+  border-color: transparent transparent #E82946;
   border-width: 0px 34px 23px 34px;
   top: -23px;
   margin: 0 auto;
@@ -6113,7 +6145,7 @@ button.btn.btn-primary {
     width: 100%; }
 
 button.btn.btn-primary:hover {
-  background-color: rgba(250, 68, 68, 0.82); }
+  background-color: #6C7A89; }
 
 button.btn.btn-primary2 {
   background: transparent;

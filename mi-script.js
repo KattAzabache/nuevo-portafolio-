@@ -10,13 +10,24 @@ function main () {
 			});
 			contador = 0;
 		} else {
-			contador = 1;
-			$('nav').animate({
-				left: '-100%'
-			});
-		}
-	});
+      contador = 1;
+      $('nav').animate({
+        left: '-100%'
+      });
+    }
+  });
 } 
+
+$(document).ready(function(){
+  if ($(window).width() <= 700) {
+    $(".menudes a").click(function(){
+  		contador = 1;
+      $('nav').animate({
+        left: '-100%'
+      });
+    })
+  };
+});
 
 /*$(document).ready(function(){
   $(window).scroll(function(){
