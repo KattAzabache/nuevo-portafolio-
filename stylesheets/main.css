@@ -6045,7 +6045,7 @@ hr {
 
 @media screen and (max-width: 710px) {
   .contacteme .text-texto-contacto p {
-    padding: 0 10%;
+    padding: 0 5%;
     margin: 0;
     text-align: justify;
     line-height: 2;
@@ -6056,7 +6056,7 @@ hr {
 @media screen and (max-width: 730px) {
   .fin .contac h6 {
     font-family: 'Lato', sans-serif;
-    font-size: 1px;
+    font-size: 13px;
     padding: 3% 4%;
     font-weight: 300; } }
 .text-texto-contacto {
