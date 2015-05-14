@@ -5735,7 +5735,7 @@ hr {
 
 .texto {
   text-align: center;
-  padding: 4% 0;
+  padding: 4% 0 0;
   font-family: 'Lobster', cursive;
   color: #6C7A89;
   font-weight: 700; }
@@ -5863,11 +5863,11 @@ hr {
 /*projectos*/
 .proyectos {
   width: 100%;
-  padding: 40px; }
+  padding: 20px 40px; }
   .proyectos .fotos {
     width: 100%;
     position: relative;
-    margin: 15% 0; }
+    margin: 9% 0; }
     .proyectos .fotos .grid {
       width: 100%; }
       .proyectos .fotos .grid img {
@@ -5930,12 +5930,12 @@ hr {
 /*sobremi*/
 .aboutme {
   text-align: center;
-  padding: 4% 0;
+  padding: 4% 0 0;
   font-family: 'Lobster', cursive;
   color: #6C7A89; }
 
 .demi p {
-  padding: 5% 25%;
+  padding: 3% 25%;
   margin: 0;
   text-align: justify;
   line-height: 2;
@@ -5979,7 +5979,6 @@ hr {
 .imagen {
   color: transparent;
   font-family: Lato;
-  text-transform: uppercase;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
@@ -6027,7 +6026,7 @@ hr {
 
 .contactame {
   text-align: center;
-  padding: 2% 0;
+  padding: 2% 0 0;
   font-family: 'Lobster', cursive;
   color: #6C7A89; }
 
@@ -6095,7 +6094,7 @@ hr {
   height: 150px; }
 
 .fin {
-  padding: 5% 0 10% 0; }
+  padding: 3% 0 5% 0; }
 
 .contac {
   text-align: center; }
@@ -6123,7 +6122,8 @@ a {
     color: white;
     padding: 0;
     margin: 0;
-    font-family: 'Lato', sans-serif; }
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 7px; }
 
 .triangulo {
   display: block;
