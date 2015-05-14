@@ -6044,7 +6044,7 @@ hr {
   /*  padding: 5% 8%;*/ }
 
 @media screen and (max-width: 710px) {
-  .text-texto-contacto p {
+  .contacteme .text-texto-contacto p {
     padding: 0 10%;
     margin: 0;
     text-align: justify;
