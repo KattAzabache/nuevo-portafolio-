@@ -5672,7 +5672,7 @@ html, body {
       top: 0;
       margin: 0;
       width: 100%;
-      font-family: 'Oswald', sans-serif;
+      font-family: 'Lobster', cursive;
       font-size: 70px;
       color: white;
       padding-bottom: 1%; }
@@ -5686,7 +5686,7 @@ html, body {
       top: 0;
       margin: 0;
       width: 100%;
-      font-family: 'Oswald', sans-serif;
+      font-family: 'Lobster', cursive;
       font-weight: 600; }
 
 @media screen and (max-width: 650px) {
@@ -5700,7 +5700,7 @@ html, body {
     top: 0;
     margin: 0;
     width: 100%;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Lobster', cursive;
     font-weight: 600; }
 
   .texto-principal .name h1 {
@@ -5710,7 +5710,7 @@ html, body {
     top: 0;
     margin: 0;
     width: 100%;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Lobster', cursive;
     font-size: 40px;
     color: white;
     padding-bottom: 1%; } }
@@ -5729,7 +5729,7 @@ hr {
 .texto {
   text-align: center;
   margin: 4% 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Lobster', cursive;
   color: #dd4a56;
   font-weight: 700; }
 
@@ -5740,7 +5740,7 @@ hr {
   background-size: cover;
   text-align: justify;
   padding: 10.6% 75px;
-  font-family: 'Oswald', sans-serif; }
+  font-family: 'Lobster', cursive; }
   .tex span {
     text-align: justify;
     position: relative;
@@ -5769,7 +5769,7 @@ hr {
   text-align: center;
   position: relative;
   z-index: 2;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Lobster', cursive;
   font-size: 20px; }
 
 .menu_bar {
@@ -5813,7 +5813,7 @@ hr {
     width: 100%;
     top: 80px;
     color: #dd4a56;
-    ffont-family: 'Oswald', sans-serif; }
+    ffont-family: 'Lobster', cursive; }
 
   nav.menudes {
     text-align: center;
@@ -5910,7 +5910,7 @@ hr {
 
 .tema {
   width: 100%;
-  height: 35%;
+  height: 2%;
   background-color: white;
   position: relative;
   top: 65%;
@@ -5918,13 +5918,16 @@ hr {
   padding: 10px; }
   .tema h2 {
     color: #E64666;
-    font-family: 'Lato', sans-serif; }
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600; }
 
 /*sobremi*/
 .aboutme {
   text-align: center;
   margin: 3% 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Lobster', cursive;
   color: #dd4a56; }
 
 .demi p {
@@ -5940,7 +5943,7 @@ hr {
 .habilidades {
   text-align: center;
   margin: 3% 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Lobster', cursive;
   color: #dd4a56; }
 
 @media screen and (max-width: 993px) {
@@ -5948,8 +5951,6 @@ hr {
     display: none; } }
 .habilidades img {
   width: 100%; }
-.habilidades .css {
-  height: 111px; }
 
 .imagen {
   color: transparent;
@@ -5960,7 +5961,7 @@ hr {
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease; }
   .imagen h2 {
-    font-size: 15px; }
+    font-size: 20px; }
 
 .imagen:hover {
   line-height: 133px;
@@ -5968,7 +5969,8 @@ hr {
 
 .imagen img {
   float: left;
-  padding: 25% 0; }
+  padding: 24% 15%;
+  height: 92%; }
 
 .imagen {
   -webkit-transition: all 1s ease;
@@ -6002,7 +6004,7 @@ hr {
 .contactame {
   text-align: center;
   margin: 2% 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Lobster', cursive;
   color: #dd4a56; }
 
 .text-texto p {
@@ -6068,9 +6070,9 @@ hr {
   text-align: center; }
   .contac h6 {
     font-family: 'Lato', sans-serif;
-    font-size: 16px;
+    font-size: 17px;
     padding: 3% 4%;
-    font-weight: 5s00; }
+    font-weight: 600; }
 
 button.butoncolor {
   background-color: rgba(209, 209, 209, 0.2);
@@ -6097,43 +6099,43 @@ a {
   height: 0;
   border: 10px solid #0e0d0d;
   border-color: transparent transparent #eb6060;
-  border-width: 10px 35px 36px 35px;
-  top: -45px;
+  border-width: 0px 34px 23px 34px;
+  top: -23px;
   margin: 0 auto;
   position: relative; }
 
 button.btn.btn-primary {
   background: transparent;
-  width: 8%;
+  width: 5%;
   border: 0;
   padding: 0; }
   button.btn.btn-primary img {
     width: 100%; }
 
 button.btn.btn-primary:hover {
-  background-color: #eb6060; }
+  background-color: rgba(250, 68, 68, 0.82); }
 
 button.btn.btn-primary2 {
   background: transparent;
-  width: 8%;
+  width: 5%;
   border: 0;
   padding: 0; }
   button.btn.btn-primary2 img {
     width: 100%; }
 
 button.btn.btn-primary2:hover {
-  background-color: skyblue; }
+  background-color: rgba(120, 186, 226, 0.82); }
 
 button.btn.btn-primary3 {
   background: transparent;
-  width: 7%;
+  width: 4.5%;
   border: 0;
   padding: 0; }
   button.btn.btn-primary3 img {
     width: 100%; }
 
 button.btn.btn-primary3:hover {
-  background-color: blue; }
+  background-color: rgba(46, 139, 219, 0.94); }
 
 .correo,
 .contra {
