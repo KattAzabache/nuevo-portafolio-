@@ -9,9 +9,8 @@
       <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
       <script src="http://code.jquery.com/jquery-latest.js"></script>
       <link rel="icon" type="image/png" href="img/LOGO.png">
-      <link href='http://fonts.googleapis.com/css?family=Merienda&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-      <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-      <link href='http://fonts.googleapis.com/css?family=Nova+Square' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'
       <script src="mi-script.js"></script>  
 </head>
   <body>
@@ -29,7 +28,7 @@
                  <div class="marca hidden-xs"></div>
               </nav>
         </header>
-        <header class="header" id="inicio">
+        <header class="header" id="inicio" >
                 <div class="texto-principal">
                   <div class="name">
                     <h1>Katherine Azabache</h1>
@@ -131,58 +130,62 @@
            </section>
            <section class="demi"  >
              <p>Hola soy Katherine Azabache tengo 18 años estudio en LABORATORIA soy programadora web y futura diseñadora, estudié en el MUSEO DE ARTE DE LIMA técnicas de dibujo: Manga y Cóminc donde me enseñaron a realizar combinación de colores con lápices, acuarélas, tizas, etc.</p>
-             <div class="habilidades hidden-md hidden-xs">
+             <div class="habilidades  hidden-xs ">
               <h1><hr>* Habilidades *<hr></h1>
-                <div class="row">
-                  <div class="col-md-3">
+                <div class="row ">
+                  <div class="col-md-2">
+                  </div>
+                  <div class="col-md-1">
                     <div class="imagen">
                        <img src="http://www.w3.org/html/logo/downloads/HTML5_Logo_512.png">
                               <h2>HTML</h2> 
                      </div>
                   </div>
-                  <div class="col-md-3">
+                  <div class="col-md-1">
                     <div class="imagen">
                       <img class="css" src="http://pmueller.de/files/content/blog/css3logo.png">  
                            <h2>css</h2> 
                     </div>
                   </div>
-                  <div class="col-md-3">
+                  <div class="col-md-1">
                     <div class="imagen">
                       <img src="https://msysgit.github.io/img/git_logo.png">  
                            <h2>GITHUB</h2> 
                     </div>
                   </div>
-                  <div class="col-md-3">
+                  <div class="col-md-1">
                     <div class="imagen">
                       <img src="http://mihai-varga.github.io/theme/images/github.png">  
                            <h2>GITBASH</h2> 
                     </div>
-                  </div>
+                  </div><!-- 
                 </div>
-                <div class="row">
-                  <div class="col-md-3">
+                <div class="row"> -->
+                  <div class="col-md-1">
                     <div class="imagen">
                       <img src="http://www.basstokman.com/wp-content/plugins/mobilechief-mobile-site-creator/lib/bootstrap/docs/assets/img/bootstrap-docs-readme.png">  
                            <h2>BOOTSTRAP</h2>
                     </div>
                   </div>
-                  <div class="col-md-3">
+                  <div class="col-md-1">
                     <div class="imagen">
                       <img src="http://scratchwizkids.ashoksquest.org/files/2013/11/scratch-logo2.png">  
                            <h2>SCRATCH</h2> 
                     </div>
                   </div>
-                  <div class="col-md-3">
+                  <div class="col-md-1">
                     <div class="imagen">
-                      <img src="http://www.noticiasggl.com/wp-content/uploads/2012/03/Historia-de-los-lapices-Miscelanea-1.png">  
+                      <img src="http://zizaza.com/cache/big_thumb/iconset/581946/581968/PNG/256/like_a_flat/pencil_web_pencil_png_pencil_icon_flat_icon_png.png">  
                            <h2>DIBUJAR</h2> 
                     </div>
                   </div>
-                  <div class="col-md-3">
+                  <div class="col-md-1">
                     <div class="imagen">
-                      <img src="http://imaginewal.com/imagenes/images/9553.png">  
+                      <img src="http://cdns2.freepik.com/foto-gratis/_21135507.jpg">  
                            <h2>PINTAR</h2> 
                     </div>
+                  </div>
+                  <div class="col-md-2">
                   </div>
                 </div>
              </div>
@@ -217,8 +220,12 @@
                                <div class="modal-body">
                                  <form>
                                    <div class="form-group">
-                                     <label for="recipient-name" class="control-label">Recipient:</label>
-                                     <input type="text" class="form-control" id="recipient-name">
+                                     <label for="recipient-name" class="correo">Correo:</label>
+                                     <input id="Email" name="Email" placeholder="Introduce tu correo electrónico" type="email" value="" spellcheck="false" autofocus="" class="cuadro">
+                                   </div>
+                                   <div class="form-group">
+                                     <label for="recipient-name" class="contra">Contraseña:</label>
+                                     <input id="Passwd" name="Passwd" type="password" placeholder="Contraseña" class="cuadro">
                                    </div>
                                    <div class="form-group">
                                      <label for="message-text" class="control-label">Message:</label>
@@ -227,8 +234,8 @@
                                  </form>
                                </div>
                                <div class="modal-footer">
-                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                 <button type="button" class="btn btn-primary">Send message</button>
+                                 <button type="button" class="clos" data-dismiss="modal">Close</button>
+                                 <button type="button" class="send" data-dismiss="modal">Send message</button>
                                </div>
                              </div>
                            </div>
@@ -270,7 +277,8 @@
                            <div class="modal-dialog">
                              <div class="modal-content">
                                <div class="modal-header">
-                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                 <button type="button" class="close" data-dism
+                                 iss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                                  <h4 class="modal-title" id="exampleModalLabel">New message</h4>
                                </div>
                                <div class="modal-body">
@@ -293,11 +301,11 @@
                            </div>
                          </div>
                       </a>      
-                  </div>                
+                </div>                
               </div>     
            </section>
         <section class="foter">
-           <span id ="flecha"></span>
+          <div class="triangulo"></div>
             <h5>© 2015 Lima-Per, Katherine Azabache.</h5> 
         </section>
      </div>

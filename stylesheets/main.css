@@ -5672,13 +5672,13 @@ html, body {
       top: 0;
       margin: 0;
       width: 100%;
-      font-family: 'Nova Square', cursive;
-      font-size: 90px;
+      font-family: 'Oswald', sans-serif;
+      font-size: 70px;
       color: white;
       padding-bottom: 1%; }
     .texto-principal .name h3 {
       z-index: 10;
-      font-size: 30px;
+      font-size: 27px;
       color: #dd4a56;
       padding: 1%;
       text-align: center;
@@ -5686,13 +5686,13 @@ html, body {
       top: 0;
       margin: 0;
       width: 100%;
-      font-family: 'Nova Square', cursive;
+      font-family: 'Oswald', sans-serif;
       font-weight: 600; }
 
 @media screen and (max-width: 650px) {
   .texto-principal .name h3 {
     z-index: 10;
-    font-size: 30px;
+    font-size: 20px;
     color: #dd4a56;
     padding: 0;
     text-align: center;
@@ -5700,7 +5700,7 @@ html, body {
     top: 0;
     margin: 0;
     width: 100%;
-    font-family: 'Nova Square', cursive;
+    font-family: 'Oswald', sans-serif;
     font-weight: 600; }
 
   .texto-principal .name h1 {
@@ -5710,8 +5710,8 @@ html, body {
     top: 0;
     margin: 0;
     width: 100%;
-    font-family: 'Nova Square', cursive;
-    font-size: 70px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
     color: white;
     padding-bottom: 1%; } }
 .proyectos {
@@ -5723,12 +5723,13 @@ html, body {
   width: 100%; }
 
 hr {
-  /* border-top: 2px dashed #dd4a56;*/ }
+  /* border-top: 2px dashed #dd4a56;*/
+  margin: 0; }
 
 .texto {
   text-align: center;
-  margin: 7% 0;
-  font-family: 'Nova Square', cursive;
+  margin: 4% 0;
+  font-family: 'Oswald', sans-serif;
   color: #dd4a56;
   font-weight: 700; }
 
@@ -5739,7 +5740,7 @@ hr {
   background-size: cover;
   text-align: justify;
   padding: 10.6% 75px;
-  font-family: 'Nova Square', cursive; }
+  font-family: 'Oswald', sans-serif; }
   .tex span {
     text-align: justify;
     position: relative;
@@ -5768,7 +5769,7 @@ hr {
   text-align: center;
   position: relative;
   z-index: 2;
-  font-family: 'Nova Square', cursive;
+  font-family: 'Oswald', sans-serif;
   font-size: 20px; }
 
 .menu_bar {
@@ -5812,7 +5813,7 @@ hr {
     width: 100%;
     top: 80px;
     color: #dd4a56;
-    font-family: 'Nova Square', cursive; }
+    ffont-family: 'Oswald', sans-serif; }
 
   nav.menudes {
     text-align: center;
@@ -5922,12 +5923,12 @@ hr {
 /*sobremi*/
 .aboutme {
   text-align: center;
-  margin: 6% 0;
-  font-family: 'Nova Square', cursive;
+  margin: 3% 0;
+  font-family: 'Oswald', sans-serif;
   color: #dd4a56; }
 
 .demi p {
-  padding: 5% 10%;
+  padding: 5% 25%;
   margin: 0;
   text-align: justify;
   line-height: 2;
@@ -5938,14 +5939,17 @@ hr {
 
 .habilidades {
   text-align: center;
-  margin: 6% 0;
-  font-family: 'Nova Square', cursive;
+  margin: 3% 0;
+  font-family: 'Oswald', sans-serif;
   color: #dd4a56; }
 
+@media screen and (max-width: 993px) {
+  .habilidades {
+    display: none; } }
 .habilidades img {
   width: 100%; }
 .habilidades .css {
-  height: 177px; }
+  height: 111px; }
 
 .imagen {
   color: transparent;
@@ -5956,7 +5960,7 @@ hr {
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease; }
   .imagen h2 {
-    font-size: 25px; }
+    font-size: 15px; }
 
 .imagen:hover {
   line-height: 133px;
@@ -5964,8 +5968,7 @@ hr {
 
 .imagen img {
   float: left;
-  margin: 0 15px 5%;
-  padding: 11%; }
+  padding: 25% 0; }
 
 .imagen {
   -webkit-transition: all 1s ease;
@@ -5992,19 +5995,19 @@ hr {
   transform: rotate(-10deg); }
 
 .habilidades .row {
-  padding: 1% 5%; }
+  padding: 3% 5%; }
   .habilidades .row .col-md-3 {
     padding: 5%; }
 
 .contactame {
   text-align: center;
-  margin: 6% 0;
-  font-family: 'Nova Square', cursive;
+  margin: 2% 0;
+  font-family: 'Oswald', sans-serif;
   color: #dd4a56; }
 
 .text-texto p {
   margin: 0;
-  padding: 5% 10%;
+  padding: 5% 20%;
   text-align: justify;
   font-size: 18px;
   font-family: 'Lato', sans-serif;
@@ -6017,12 +6020,11 @@ hr {
 .text-texto-contacto {
   text-align: justify; }
   .text-texto-contacto p {
-    margin: 3%;
+    padding: 0 19%;
     font-size: 18px;
     font-family: 'Lato', sans-serif;
     font-weight: 600;
-    line-height: 2;
-    text-align: center; }
+    line-height: 2; }
 
 .contacto {
   list-style: none;
@@ -6062,6 +6064,14 @@ hr {
     padding: 3% 4%;
     font-weight: 5s00; }
 
+.contac {
+  text-align: center; }
+  .contac h6 {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    padding: 3% 4%;
+    font-weight: 5s00; }
+
 button.butoncolor {
   background-color: rgba(209, 209, 209, 0.2);
   border-radius: 10px;
@@ -6074,13 +6084,14 @@ a {
 
 .foter {
   background-color: black;
-  text-align: center; }
+  text-align: center;
+  margin-top: 3%; }
   .foter h5 {
     color: white;
     padding: 1%;
     margin: 0; }
 
-#flecha {
+.triangulo {
   display: block;
   width: 0;
   height: 0;
@@ -6123,5 +6134,14 @@ button.btn.btn-primary3 {
 
 button.btn.btn-primary3:hover {
   background-color: blue; }
+
+.correo,
+.contra {
+  width: 100%; }
+
+.cuadro {
+  width: 100%;
+  padding: 1%;
+  border: 1px solid #d3cfcf; }
 
 /*# sourceMappingURL=main.css.map */
