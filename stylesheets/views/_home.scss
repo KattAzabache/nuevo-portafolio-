@@ -368,7 +368,7 @@ hr {
 }
 .habilidades{
   text-align: center;
-  margin: 3% 0;
+  margin: 3% 0 0;
   font-family: 'Lobster', cursive;
   color: #6C7A89;
 }
@@ -462,6 +462,18 @@ hr {
 /*  padding: 5% 8%;*/
 }
 
+@media screen and (max-width: 560px){
+  .contactame {
+    text-align: center;
+    padding: 4% 0 0;
+    font-family: 'Lobster', cursive;
+    color: #6C7A89;
+    }
+  .contac {
+    text-align: center;
+    padding: 3%;
+  }
+}
 @media screen and (max-width: 710px){
 
     .contacteme .text-texto-contacto p {
@@ -557,7 +569,7 @@ margin-top: 3%;
   padding: 0;
   margin: 0;
   font-family: 'Lato', sans-serif;
-  padding-bottom: 7px;
+  padding-bottom: 1%;
  }
 }
 .triangulo{
@@ -582,7 +594,7 @@ button.btn.btn-primary {
   }
 }
 button.btn.btn-primary:hover{
-background-color:#6C7A89; 
+background-color:#E82946; 
 }
 button.btn.btn-primary2 {
   background: transparent;
