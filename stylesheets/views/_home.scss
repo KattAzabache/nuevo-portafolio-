@@ -35,7 +35,7 @@ html, body, {
 /*https://s-media-cache-ak0.pinimg.com/736x/5a/46/c3/5a46c36de4510b0fc8569cd2e3a710b4.jpg*/
 .texto-principal {
    background-image: url(http://static.dunkedcdn.com/assets/site/images/desk-bg.jpg);
-    background-size: cover;
+   background-size: cover;
    background-attachment: fixed;
   .name {
     padding: 21% 0;
@@ -66,34 +66,46 @@ html, body, {
       }
   }
 }
-@media screen and (max-width: 400px){
-    .texto-principal .name {
-       padding: 50% 0;
-       /*background-color:rgba(8, 8, 8, 0.35); */ 
-    }
-    ´p{
-      padding: 5% 13%;
-    }
-}
+
 @media screen and (max-width: 650px){
-      .texto-principal .name  h3 {
+    .texto-principal .name {
+      padding: 30% 0;
+        h3 {
         z-index: 10;
         font-size: 20px;
         color:#6C7A89;
         padding: 0;
         text-align: center;
         position: relative;
-        top: -25px;
+        top: -5px;
         margin: 0;
         width: 100%;
         font-family: 'Lobster', cursive;
         font-weight: 600;          
       }
-    .texto-principal  .name h1 {
+       h1 {
         text-align: center;
          position: relative;
          background: transparent;
-         top: -25px;
+         top: -5px;
+         margin: 0;
+         width: 100%;
+         font-family: 'Lobster', cursive;
+         font-size: 40px;
+         color:#14ADA1;
+         padding-bottom: 1%;
+      }    
+    } 
+
+}
+@media screen and (max-width: 400px){
+    .texto-principal .name {
+      padding: 50% 0;
+       h1{
+         top: -45px;
+         text-align: center;
+         position: relative;
+         background: transparent;
          margin: 0;
          width: 100%;
          font-family: 'Lobster', cursive;
@@ -101,7 +113,24 @@ html, body, {
          color:#14ADA1;
          padding-bottom: 1%;
       }
-}
+       h3{
+        top: -35px;
+        z-index: 10;
+        font-size: 20px;
+        color:#6C7A89;
+        padding: 0;
+        text-align: center;
+        position: relative;
+        margin: 0;
+        width: 100%;
+        font-family: 'Lobster', cursive;
+        font-weight: 600; 
+      }
+    }        
+    p{
+      padding: 5% 13%;
+    }
+  }
 .proyectos{
       padding: 5% 2%;
     .grid{
