@@ -68,7 +68,7 @@ html, body, {
 }
 @media screen and (max-width: 400px){
     .texto-principal .name {
-       padding: 40% 0;
+       padding: 45% 0;
        /*background-color:rgba(8, 8, 8, 0.35); */ 
     }
     ´p{
@@ -83,7 +83,7 @@ html, body, {
         padding: 0;
         text-align: center;
         position: relative;
-        top: 0;
+        top: -25px;
         margin: 0;
         width: 100%;
         font-family: 'Lobster', cursive;
@@ -93,7 +93,7 @@ html, body, {
         text-align: center;
          position: relative;
          background: transparent;
-         top: 0;
+         top: -25px;
          margin: 0;
          width: 100%;
          font-family: 'Lobster', cursive;
