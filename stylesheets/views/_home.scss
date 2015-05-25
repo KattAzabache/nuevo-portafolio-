@@ -31,35 +31,34 @@ html, body, {
   position: relative;
   width: 100%;
   height: 100%;
-  /*background: url() no-repeat center center scroll;
-  background-size: cover;*/
 }
+/*https://s-media-cache-ak0.pinimg.com/736x/5a/46/c3/5a46c36de4510b0fc8569cd2e3a710b4.jpg*/
 .texto-principal {
-   background-image: url(http://www.m0rph.com/wp-content/uploads/2015/02/laptop-on-work-desk.jpg);
+   background-image: url(http://static.dunkedcdn.com/assets/site/images/desk-bg.jpg);
     background-size: cover;
    background-attachment: fixed;
   .name {
-    padding: 20% 0;
-    background-color:rgba(8, 8, 8, 0.35);
+    padding: 21% 0;
+  /*  background-color:rgba(8, 8, 8, 0.35);*/
       h1 {
           text-align: center;
          position: relative;
-         top: 0;
+         top: -50px;
          margin: 0;
          width: 100%;
          font-family: 'Lobster', cursive;
          font-size: 70px;
-         color:#E82946;
+         color:#14ADA1;
          padding-bottom: 1%;
-      }
+      }/*#E82946*/
       h3 {
         z-index: 10;
         font-size: 30px;
-        color: white;
+        color:#6C7A89;
         padding: 1%;
         text-align: center;
         position: relative;
-        top: 0;
+        top: -45px;
         margin: 0;
         width: 100%;
         font-family: 'Lobster', cursive;
@@ -70,7 +69,7 @@ html, body, {
 @media screen and (max-width: 400px){
     .texto-principal .name {
        padding: 40% 0;
-       background-color:rgba(8, 8, 8, 0.35);  
+       /*background-color:rgba(8, 8, 8, 0.35); */ 
     }
     ´p{
       padding: 5% 13%;
@@ -80,7 +79,7 @@ html, body, {
       .texto-principal .name  h3 {
         z-index: 10;
         font-size: 20px;
-        color: white;
+        color:#6C7A89;
         padding: 0;
         text-align: center;
         position: relative;
@@ -99,7 +98,7 @@ html, body, {
          width: 100%;
          font-family: 'Lobster', cursive;
          font-size: 40px;
-         color:#E82946;
+         color:#14ADA1;
          padding-bottom: 1%;
       }
 }
@@ -179,7 +178,7 @@ hr {
   .menu_bar .bt-menu {
     display: block;
     padding: 1%;
-    color: #E82946;
+    color: #14ADA1;
     overflow: hidden;
     font-size: 30px;
     font-weight: bold;
@@ -198,15 +197,19 @@ hr {
   }
   .barra-de-navegacion nav a  {
     display: block;
-    border-bottom: 1px dashed #E82946;
+    border-bottom: 1px dashed #14ADA1;
     padding: 7%;
     text-align: center;
     font-size: 30px;
     width: 100%;
     top: 80px;
-    color: #E82946;
+    color: #14ADA1;
     font-family: 'Lobster', cursive;
   }
+     nav a:hover {
+   background-color: #14ADA1;
+   color: white;
+   }
    nav.menudes {
    text-align: center;
    width: 100%;
@@ -224,7 +227,7 @@ hr {
    border: 3px solid white ;
    transition: 0.5s ease-in-out;
    z-index:1;
-   background-color:#E82946;
+   background-color:#14ADA1;
 } 
 
 
@@ -314,8 +317,9 @@ hr {
    top: 65%;
    text-align: center;
    padding: 10px;
+   border-bottom: 1px solid #14ADA1;
     h2{
-      color:#E64666;
+      color:#14ADA1;
       font-family: 'Lato', sans-serif;
       margin: 0;
       font-size: 20px;
@@ -441,7 +445,7 @@ hr {
 
 .contactame{
   text-align: center;
-  padding: 2% 0 0;
+  padding: 5% 0 0;
   font-family: 'Lobster', cursive;
   color: #6C7A89;
 }
@@ -465,7 +469,7 @@ hr {
 @media screen and (max-width: 560px){
   .contactame {
     text-align: center;
-    padding: 4% 0 0;
+    padding: 10% 0 0;
     font-family: 'Lobster', cursive;
     color: #6C7A89;
     }
@@ -564,6 +568,7 @@ a {
 background-color: black;
 text-align: center;
 margin-top: 3%;
+border-top: 3px solid #14ADA1;
  h5{
   color: white;
   padding: 0;
@@ -577,8 +582,7 @@ margin-top: 3%;
    width: 0;
    height: 0;
    border: 10px solid rgb(14, 13, 13);
-   border-color: transparent transparent #E82946;
-;
+   border-color: transparent transparent #14ADA1;
    border-width: 0px 34px 23px 34px;
    top: -23px;
    margin: 0 auto;
