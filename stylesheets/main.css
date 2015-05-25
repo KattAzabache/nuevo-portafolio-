@@ -5691,7 +5691,7 @@ html, body {
 
 @media screen and (max-width: 650px) {
   .texto-principal .name {
-    padding: 30% 0; }
+    padding: 25% 0; }
     .texto-principal .name h3 {
       z-index: 10;
       font-size: 20px;
