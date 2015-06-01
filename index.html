@@ -12,319 +12,355 @@
       <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
       <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
       <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-      <script src="mi-script.js"></script>  
+      <script src="mi-script.js"></script>
+      <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"> 
+      <!-- compatibilidad --> 
+      <meta http-equiv="X-UA-Compatible" content="chrome=1">
 </head>
-  <body>
-    <div class="container-fluid">
-      <div class="color">
-        <header class="barra-de-navegacion">
-            <div class="menu_bar">
-               <a href="#" class="bt-menu">=</a>
-            </div>
-              <nav class="menudes">
-                 <a href="#inicio">Inicio</a>
-                 <a href="#proyectos">Proyectos</a>
-                 <a href="#sobremi">Sobre mi</a>                 
-                 <a href="#contac">Contacto</a>
-                 <div class="marca hidden-xs"></div>
-              </nav>
+<body>
+  <div class="container">
+     <div class="menu">
+       <header class="barra-de-navegacion">
+              <div class="menu_bar">
+                 <a href="#" class="bt-menu">=</a>
+              </div>
+                <nav class="menudes">
+                   <a href="#inicio">Inicio</a>
+                   <a href="#proyectos">Proyectos</a>
+                   <a href="#sobremi">Sobre mi</a>                 
+                   <a href="#contac">Contacto</a>
+                   <div class="marca hidden-xs"></div>
+                </nav>
         </header>
-        <header class="header" id="inicio" >
-                <div class="texto-principal">
-                  <div class="name">
-                    <h1>Katherine Azabache</h1>
-                    <h3>- Programadora Web & Ilustradora -</h3>
-                  </div>                  
-                </div>
-        </header>
-           <div class="id" id="proyectos"></div>
-           <section class="texto">
-              <div class="row">
-                <div class="col-12">
-                  <h1> <hr> * Mis Proyectos * <hr></h1>
-                </div>
-              </div>
-            </section>
-            <section class="proyectos">
-              <div class="row">
-                <div class="col-md-4 col-ms-4 col-xs-12">
-                  <div class="fotos">
-                    <div class="grid">
-                        <a href="http://katty-azabache.github.io/olas-peru/">
-                          <img src="img/olasperu.png">
-                        </a>                      
-                    </div>
-                    <div class="tema">
-                        <h2>Olas Peru</h2>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4 col-ms-4 col-xs-12">
-                  <div class="fotos">
-                    <div class="grid">
-                        <a href="http://katty-azabache.github.io/danza/home/">
-                            <img src="img/danza.png">
-                        </a>      
-                    </div>
-                    <div class="tema">
-                        <h2>Escuela de danza</h2>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4 col-ms-4 col-xs-12">
-                  <div class="fotos">
-                    <div class="grid">
-                        <a href="http://katty-azabache.github.io/grid/">
-                          <img src="img/grid.png">
-                        </a>      
-                    </div>
-                    <div class="tema">
-                      <h2>Grid Laboratoria</h2>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-4 col-ms-4 col-xs-12">
-                  <div class="fotos">
-                    <div class="grid">
-                        <a href="http://katty-azabache.github.io/p-gina-laboratoria/">
-                          <img src="img/laboratoria.png">
-                        </a>      
-                    </div>
-                    <div class="tema">
-                      <h2>Laboratoria</h2>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4 col-ms-4 col-xs-12">
-                  <div class="fotos">
-                    <div class="grid">
-                        <a href="http://katty-azabache.github.io/slider/">
-                          <img src="img/love.png">
-                        </a>      
-                    </div>
-                    <div class="tema">
-                      <h2>Slider</h2>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4 col-ms-4 col-xs-12">
-                  <div class="fotos">
-                    <div class="grid">
-                        <a href="http://katty-azabache.github.io/proyecto/">
-                          <img src="img/proyecto.png">
-                        </a>      
-                    </div>
-                    <div class="tema">
-                      <h2>Facilito</h2>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-        <div class="id" id ="sobremi"></div>
+     </div>
+     <div class="portada">
+        <svg viewBox="0">       
+
+         <!-- Gradient -->
+         <radialGradient id="gr-radial"
+                         cx="50%" cy="50%" r="70%"
+                         >
+           <!-- Animation for radius of gradient -->
+           <animate attributeName="r" 
+                    values="0%;150%;100%;0%"
+                    dur="5s" repeatCount="indefinite" />
+           <!-- Animation for colors of stop-color -->
+           <stop stop-color="#FFF" offset="0">
+             <animate attributeName="stop-color" values="#12A0A0;#1EBEB6;rgb(55, 211, 205);rgb(72, 206, 179);#1EBEB6;rgb(127, 131, 131);" dur="4s" repeatCount="indefinite" style=""></animate>
+           </stop>
+           <stop stop-color="#14ADA1)" offset="100%"/>
+         </radialGradient>       
+
+          <!-- Text -->
+          <text text-anchor="middle"
+               x="50%"
+               y="40%"
+               class="text">
+               Katherine Azabache
+               
+          </text>
+        </svg>
+        <h3>- Programadora Web & Ilustradora -</h3> 
+        <a href="#proyectos"><button class="fa fa-angle-double-down trigger" data-info="Click to see the header effect" ><!-- <span></span> --></button></a>
+     </div>
+     <div class="id" id="proyectos"></div>
+      <div class="todo-proyecto">
+        <section class="texto">
+           <div class="row">
+             <div class="col-12">
+               <h1> <hr> - Mis Proyectos - <hr></h1>
+             </div>
+           </div>
+         </section>
+        <section class="proyectos">
+                 <div class="row">
+                   <div class="col-md-4 col-ms-4 col-xs-12 realize">
+                     <div class="fotos">
+                       <div class="grid">
+                           <a href="http://katty-azabache.github.io/olas-peru/">
+                             <img src="img/olasperu.png">
+                           </a>                      
+                       </div>
+                       <div class="tema">
+                           <h2>Olas Peru</h2>
+
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-md-4 col-ms-4 col-xs-12 realize">
+                     <div class="fotos">
+                       <div class="grid">
+                           <a href="http://katty-azabache.github.io/danza/home/">
+                               <img src="img/danza.png">
+                           </a>      
+                       </div>
+                       <div class="tema">
+                           <h2>Escuela de danza</h2>
+
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-md-4 col-ms-4 col-xs-12 realize">
+                     <div class="fotos">
+                       <div class="grid">
+                           <a href="http://katty-azabache.github.io/grid/">
+                             <img src="img/grid.png">
+                           </a>      
+                       </div>
+                       <div class="tema">
+                         <h2>Grid Laboratoria</h2>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+                 <div class="row">
+                   <div class="col-md-4 col-ms-4 col-xs-12 realize">
+                     <div class="fotos">
+                       <div class="grid">
+                           <a href="http://katty-azabache.github.io/p-gina-laboratoria/">
+                             <img src="img/laboratoria.png">
+                           </a>      
+                       </div>
+                       <div class="tema">
+                         <h2>Laboratoria</h2>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-md-4 col-ms-4 col-xs-12 realize">
+                     <div class="fotos">
+                       <div class="grid">
+                           <a href="http://katty-azabache.github.io/slider/">
+                             <img src="img/love.png">
+                           </a>      
+                       </div>
+                       <div class="tema">
+                         <h2>Slider</h2>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="col-md-4 col-ms-4 col-xs-12 realize">
+                     <div class="fotos">
+                       <div class="grid">
+                           <a href="http://f6d5ewkatty-azabache.github.io/proyecto/">
+                             <img src="img/proyecto.png">
+                           </a>      
+                       </div>
+                       <div class="tema">
+                         <h2>Facilito</h2>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+        </section>
+      </div>
+      <div class="yo">
+         <div class="id" id ="sobremi"></div>
           <section class="aboutme">
               <div class="row">
                 <div class="col-12">
                   <h1><hr>* Sobre mi  *<hr></h1>
                 </div>
               </div>
-           </section>
+           </section>  
            <section class="demi">
              <div class="row">
                <div class="col-md-3"></div>
                <div class="col-md-6 col-md-12">
-                 <p>Hola! soy Katherine Azabache, aprendí desarrollo web front-end en Laboratoria. También soy ilustradora, estudié en el Museo de Arte de Lima, técnicas de dibujo manga y cómic donde me enseñaron a realizar combinación de colores con lápices, acuarelas y tizas. En el futuro quiero aprender diseño.</p>               
+                 <p>Hola! soy Katherine Azabache, aprendí desarrollo web front-end en Laboratoria. También soy ilustradora, estudié en el Museo de Arte de Lima, técnicas de dibujo manga y cómic donde me enseñaron a realizar combinación de colores con lápices, acuarelas y tizas. En el futuro quiero aprender diseño.</p> 
+                <!--  <img src="http://opengil.com/images/responsivo.png"> -->              
                </div>
                <div class="col-md-3"></div>
              </div>
-             <div class="habilidades  hidden-xs ">
-              <h1><hr>* Habilidades *<hr></h1>
-                <div class="row ">
-                  <div class="col-md-2">
+           </section>    
+      </div>
+      <div class="habilid">
+        <section class="habilidades">
+          <h1><hr>* Habilidades *<hr></h1>
+            <div class="responsive ">
+               <img src="http://opengil.com/images/responsivo.png">
+            </div>
+            <div class="row hidden-xs">
+               <div class="col-md-2">
+               </div>
+               <div class="col-md-2">
+                 <div class="imagen">
+                    <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/2000px-HTML5_Badge.svg.png">
+                           <h2>HTML</h2> 
                   </div>
-                  <div class="col-md-2">
-                    <div class="imagen">
-                       <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/2000px-HTML5_Badge.svg.png">
-                              <h2>HTML</h2> 
-                     </div>
-                  </div>
-                  <div class="col-md-2">
-                    <div class="imagen">
-                      <img class="css" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTsTyOqWZMsGpBa4UyDUL0Hmleoq5kzS_fyFUj5zZtXPCa8cJ1W">  
-                           <h2>CSS</h2> 
+               </div>
+               <div class="col-md-2">
+                 <div class="imagen">
+                   <img class="css" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTsTyOqWZMsGpBa4UyDUL0Hmleoq5kzS_fyFUj5zZtXPCa8cJ1W">  
+                        <h2>CSS</h2> 
+                 </div>
+               </div>
+               <div class="col-md-2">
+                 <div class="imagen">
+                   <img src="https://msysgit.github.io/img/git_logo.png">  
+                        <h2>GitBash</h2> 
+                 </div>
+               </div>
+               <div class="col-md-2">
+                 <div class="imagen">
+                   <img src="http://mihai-varga.github.io/theme/images/github.png">  
+                        <h2>GitHub</h2> 
+                 </div>
+               </div>
+               <div class="col-md-2">
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-2">
+               </div>
+               <div class="col-md-2">
+                 <div class="imagen">
+                   <img src="http://www.basstokman.com/wp-content/plugins/mobilechief-mobile-site-creator/lib/bootstrap/docs/assets/img/bootstrap-docs-readme.png">  
+                        <h2>Bootstrap</h2>
+                 </div>
+               </div>
+               <div class="col-md-2">
+                 <div class="imagen">
+                   <img src="http://scratchwizkids.ashoksquest.org/files/2013/11/scratch-logo2.png">  
+                        <h2>Scratch</h2> 
+                 </div>
+               </div>
+               <div class="col-md-2">
+                 <div class="imagen">
+                   <img src="http://zizaza.com/cache/big_thumb/iconset/581946/581968/PNG/256/like_a_flat/pencil_web_pencil_png_pencil_icon_flat_icon_png.png">  
+                        <h2>Ilustrar</h2> 
+                 </div>
+               </div>
+               <div class="col-md-2">
+                 <div class="imagen">
+                   <img src="https://cdn4.iconfinder.com/data/icons/SUPERVISTA/graphics/png/400/palette.png">  
+                        <h2>Pintar</h2> 
+                 </div>
+               </div>
+               <div class="col-md-2"></div>
+            </div>
+        </section>
+      </div>
+      
+      <div class="encuentrame"id="contac"><!-- 
+            <section class="contactame">                   
+            </section> -->
+            <section class="container fin"> 
+                <div class="row color">
+                  <div class="col-md-3"></div>
+                  <div class="col-md-6 col-sm-12 contacteme">               
+                    <div class="text-texto-contacto">
+                       <h1><hr>* Contacto *<hr></h1>
+                        <p>Quieres que te ayude a construir algo en la web? contactame en cualquiera de estas redes sociales..
+                        </p>
                     </div>
-                  </div>
-                  <div class="col-md-2">
-                    <div class="imagen">
-                      <img src="https://msysgit.github.io/img/git_logo.png">  
-                           <h2>GitBash</h2> 
-                    </div>
-                  </div>
-                  <div class="col-md-2">
-                    <div class="imagen">
-                      <img src="http://mihai-varga.github.io/theme/images/github.png">  
-                           <h2>GitHub</h2> 
-                    </div>
-                  </div>
-                  <div class="col-md-2">
-                  </div>
+                  </div> 
+                  <div class="col-md-3"></div>
                 </div>
-                <div class="row">
-                  <div class="col-md-2">
-                  </div>
-                  <div class="col-md-2">
-                    <div class="imagen">
-                      <img src="http://www.basstokman.com/wp-content/plugins/mobilechief-mobile-site-creator/lib/bootstrap/docs/assets/img/bootstrap-docs-readme.png">  
-                           <h2>Bootstrap</h2>
-                    </div>
-                  </div>
-                  <div class="col-md-2">
-                    <div class="imagen">
-                      <img src="http://scratchwizkids.ashoksquest.org/files/2013/11/scratch-logo2.png">  
-                           <h2>Scratch</h2> 
-                    </div>
-                  </div>
-                  <div class="col-md-2">
-                    <div class="imagen">
-                      <img src="http://zizaza.com/cache/big_thumb/iconset/581946/581968/PNG/256/like_a_flat/pencil_web_pencil_png_pencil_icon_flat_icon_png.png">  
-                           <h2>Ilustrar</h2> 
-                    </div>
-                  </div>
-                  <div class="col-md-2">
-                    <div class="imagen">
-                      <img src="http://didakos.org/img/paleta.png">  
-                           <h2>Pintar</h2> 
-                    </div>
-                  </div>
-                  <div class="col-md-2">
-                  </div>
-                </div>
-             </div>
-           </section>
-         <div class="id" id ="contac"></div>
-            <section class="contactame">
-              <div class="row">
-                <div class="col-12" >
-                  <h1><hr>* Contacto *<hr></h1>
-                </div>
-              </div>
-           </section>
-           <section class="container fin"> 
-              <div class="row">
-                <div class="col-md-3"></div>
-                <div class="col-md-6 col-sm-12 contacteme">               
-                  <div class="text-texto-contacto">
-                      <p>Quieres que te ayude a construir algo en la web? contactame en cualquiera de estas redes sociales..
-                      </p>
-                  </div>
-                <div class="col-md-3"></div>
-                </div> 
-              </div>
                 <div class="contac">                             
-                    <!-- <h6>Puedes encontrarme en cualquiera de las redes sociales</h6> -->                     
-                    <a >
-                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="https://www.gmail.com"><img src="img/gm.png"></button>                
-                         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                           <div class="modal-dialog">
-                             <div class="modal-content">
-                               <div class="modal-header">
-                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                 <h4 class="modal-title" id="exampleModalLabel">New message</h4>
-                               </div>
-                               <div class="modal-body">
-                                 <form>
-                                   <div class="form-group">
-                                     <label for="recipient-name" class="correo">Correo:</label>
-                                     <input id="Email" name="Email" placeholder="Introduce tu correo electrónico" type="email" value="" spellcheck="false" autofocus="" class="cuadro">
-                                   </div>
-                                   <div class="form-group">
-                                     <label for="recipient-name" class="contra">Contraseña:</label>
-                                     <input id="Passwd" name="Passwd" type="password" placeholder="Contraseña" class="cuadro">
-                                   </div>
-                                   <div class="form-group">
-                                     <label for="message-text" class="control-label">Message:</label>
-                                     <textarea class="form-control" id="message-text"></textarea>
-                                   </div>
-                                 </form>
-                               </div>
-                               <div class="modal-footer">
-                                 <button type="button" class="clos" data-dismiss="modal">Close</button>
-                                 <button type="button" class="send" data-dismiss="modal">Send message</button>
-                               </div>
-                             </div>
-                           </div>
-                         </div>
-                      
-                    </a>
-                    <a>
-                      <button type="button" class="btn btn-primary2" data-toggle="modal" data-target="#exampleModal" data-whatever="https://www.twitter.com"><img src="img/tw.png"></button>                
-                         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                           <div class="modal-dialog">
-                             <div class="modal-content">
-                               <div class="modal-header">
-                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                 <h4 class="modal-title" id="exampleModalLabel">New message</h4>
-                               </div>
-                               <div class="modal-body">
-                                 <form>
-                                   <div class="form-group">
-                                     <label for="recipient-name" class="control-label">Recipient:</label>
-                                     <input type="text" class="form-control" id="recipient-name">
-                                   </div>
-                                   <div class="form-group">
-                                     <label for="message-text" class="control-label">Message:</label>
-                                     <textarea class="form-control" id="message-text"></textarea>
-                                   </div>
-                                 </form>
-                               </div>
-                               <div class="modal-footer">
-                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                 <button type="button" class="btn btn-primary">Send message</button>
+                      <!-- <h6>Puedes encontrarme en cualquiera de las redes sociales</h6> -->                     
+                      <a >
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="https://www.gmail.com"><img src="img/gm.png"></button>                
+                           <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                             <div class="modal-dialog">
+                               <div class="modal-content">
+                                 <div class="modal-header">
+                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                   <h4 class="modal-title" id="exampleModalLabel">New message</h4>
+                                 </div>
+                                 <div class="modal-body">
+                                   <form>
+                                     <div class="form-group">
+                                       <label for="recipient-name" class="correo">Correo:</label>
+                                       <input id="Email" name="Email" placeholder="Introduce tu correo electrónico" type="email" value="" spellcheck="false" autofocus="" class="cuadro">
+                                     </div>
+                                     <div class="form-group">
+                                       <label for="recipient-name" class="contra">Contraseña:</label>
+                                       <input id="Passwd" name="Passwd" type="password" placeholder="Contraseña" class="cuadro">
+                                     </div>
+                                     <div class="form-group">
+                                       <label for="message-text" class="control-label">Message:</label>
+                                       <textarea class="form-control" id="message-text"></textarea>
+                                     </div>
+                                   </form>
+                                 </div>
+                                 <div class="modal-footer">
+                                   <button type="button" class="clos" data-dismiss="modal">Close</button>
+                                   <button type="button" class="send" data-dismiss="modal">Send message</button>
+                                 </div>
                                </div>
                              </div>
                            </div>
-                         </div>
+                        
                       </a>
                       <a>
-                      <button type="button" class="btn btn-primary3" data-toggle="modal" data-target="#exampleModal" data-whatever="https://www.linkedin.com/"><img src="img/in.png"></button>                
-                         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                           <div class="modal-dialog">
-                             <div class="modal-content">
-                               <div class="modal-header">
-                                 <button type="button" class="close" data-dism
-                                 iss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                 <h4 class="modal-title" id="exampleModalLabel">New message</h4>
-                               </div>
-                               <div class="modal-body">
-                                 <form>
-                                   <div class="form-group">
-                                     <label for="recipient-name" class="control-label">Recipient:</label>
-                                     <input type="text" class="form-control" id="recipient-name">
-                                   </div>
-                                   <div class="form-group">
-                                     <label for="message-text" class="control-label">Message:</label>
-                                     <textarea class="form-control" id="message-text"></textarea>
-                                   </div>
-                                 </form>
-                               </div>
-                               <div class="modal-footer">
-                                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                 <button type="button" class="btn btn-primary">Send message</button>
+                        <button type="button" class="btn btn-primary2" data-toggle="modal" data-target="#exampleModal" data-whatever="https://www.twitter.com"><img src="img/tw.png"></button>                
+                           <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                             <div class="modal-dialog">
+                               <div class="modal-content">
+                                 <div class="modal-header">
+                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                   <h4 class="modal-title" id="exampleModalLabel">New message</h4>
+                                 </div>
+                                 <div class="modal-body">
+                                   <form>
+                                     <div class="form-group">
+                                       <label for="recipient-name" class="control-label">Recipient:</label>
+                                       <input type="text" class="form-control" id="recipient-name">
+                                     </div>
+                                     <div class="form-group">
+                                       <label for="message-text" class="control-label">Message:</label>
+                                       <textarea class="form-control" id="message-text"></textarea>
+                                     </div>
+                                   </form>
+                                 </div>
+                                 <div class="modal-footer">
+                                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                   <button type="button" class="btn btn-primary">Send message</button>
+                                 </div>
                                </div>
                              </div>
                            </div>
-                         </div>
-                      </a>      
-                </div> 
-           </section>
+                        </a>
+                        <a>
+                        <button type="button" class="btn btn-primary3" data-toggle="modal" data-target="#exampleModal" data-whatever="https://www.linkedin.com/"><img src="img/in.png"></button>                
+                           <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                             <div class="modal-dialog">
+                               <div class="modal-content">
+                                 <div class="modal-header">
+                                   <button type="button" class="close" data-dism
+                                   iss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                   <h4 class="modal-title" id="exampleModalLabel">New message</h4>
+                                 </div>
+                                 <div class="modal-body">
+                                   <form>
+                                     <div class="form-group">
+                                       <label for="recipient-name" class="control-label">Recipient:</label>
+                                       <input type="text" class="form-control" id="recipient-name">
+                                     </div>
+                                     <div class="form-group">
+                                       <label for="message-text" class="control-label">Message:</label>
+                                       <textarea class="form-control" id="message-text"></textarea>
+                                     </div>
+                                   </form>
+                                 </div>
+                                 <div class="modal-footer">
+                                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                   <button type="button" class="btn btn-primary">Send message</button>
+                                 </div>
+                               </div>
+                             </div>
+                           </div>
+                        </a>      
+                  </div> 
+             </section>      
+        </div>
         <section class="foter">
           <div class="triangulo"></div>
             <h5>© 2015 Lima-Perù, Katherine Azabache.</h5> 
-        </section>
-     </div>
-    </div> 
+        </section>        
+
+  </div>
+</body>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>       
     <!-- Javascripts de Bootstrap -->

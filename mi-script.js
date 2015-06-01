@@ -29,17 +29,33 @@ $(document).ready(function(){
   };
 });
 
-/*$(document).ready(function(){
+/*scroll*/
+$(document).ready(function(){
   $(window).scroll(function(){
-  var prueba = $(this).scrollTop();
-  if (prueba > 658) {
-  $(".barra-de-navegacion").addClass("menu-color");
-  }
-  else if (prueba < 658) {
-  $(".barra-de-navegacion").removeClass("menu-color");
-  }
+    var prueba = $(this).scrollTop();
+    $("#nav").text(prueba);
+    if (prueba > 658) {
+      $(".menudes").addClass("navegacion");
+      $(".marca").addClass("marca1");
+      $(".menu_bar").addClass("menu-responsive");
+    }
+      else if (prueba < 658) {
+      $(".menudes").removeClass("navegacion");
+      $(".marca").removeClass("marca1");
+      $(".menu_bar").addClass("menu-responsive");
+    }
   });
-});*/
+});
+
+
+
+
+
+
+
+
+
+
 
 
 $('#exampleModal').on('show.bs.modal', function (event) {

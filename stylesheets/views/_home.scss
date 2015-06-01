@@ -1,170 +1,27 @@
-
-/*http://img.tecnologiapyme.com/2010/07/beach_laptop.jpg
-http://cdn.webadictos.co/media/2013/07/Laptop-on-Beach-800x523.jpg
-http://www.cssauthor.com/wp-content/uploads/2014/09/Free-Macbook-Air-hipster-Mockups1.jpg
-http://www.doddleinternet.com/
-#008D99
-*/
-html, body, {
+.container {
+  margin: 0;
+  width: 100%;
   height: 100%;
-}
-.container-fluid{
   padding: 0;
   background-image: url(http://www.freejpg.com.ar/asset/900/02/027b/F100006448.jpg);
   background-size: cover;
   background-attachment: fixed;
 }
-.color {
- background-color:rgba(255, 255, 255, 0.81);
- height: 100%;
-}
 
-.row{
-    margin-left: 0;
-        margin-right: 0;
-    }
-
-.header {
-  display: table;
-  position: relative;
-  width: 100%;
+html, body {
   height: 100%;
 }
-/*https://s-media-cache-ak0.pinimg.com/736x/5a/46/c3/5a46c36de4510b0fc8569cd2e3a710b4.jpg*/
-.texto-principal {
-   background-image: url(http://static.dunkedcdn.com/assets/site/images/desk-bg.jpg);
-    background-size: cover;
-   background-attachment: fixed;
-  .name {
-    padding: 21% 0;
-  /*  background-color:rgba(8, 8, 8, 0.35);*/
-      h1 {
-          text-align: center;
-         position: relative;
-         top: -50px;
-         margin: 0;
-         width: 100%;
-         font-family: 'Lobster', cursive;
-         font-size: 70px;
-         color:#14ADA1;
-         padding-bottom: 1%;
-      }/*#E82946*/
-      h3 {
-        z-index: 10;
-        font-size: 30px;
-        color:#6C7A89;
-        padding: 1%;
-        text-align: center;
-        position: relative;
-        top: -45px;
-        margin: 0;
-        width: 100%;
-        font-family: 'Lobster', cursive;
-        font-weight: 600;
-      }
-  }
+.row{
+    margin-left: 0;
+   margin-right: 0;
 }
 
-@media screen and (max-width: 650px){
-    .texto-principal .name {
-      padding: 25% 0;
-        h3 {
-        z-index: 10;
-        font-size: 20px;
-        color:#6C7A89;
-        padding: 0;
-        text-align: center;
-        position: relative;
-        top: -25px;
-        margin: 0;
-        width: 100%;
-        font-family: 'Lobster', cursive;
-        font-weight: 600;          
-      }
-       h1 {
-        text-align: center;
-         position: relative;
-         background: transparent;
-         top: -25px;
-         margin: 0;
-         width: 100%;
-         font-family: 'Lobster', cursive;
-         font-size: 40px;
-         color:#14ADA1;
-         padding-bottom: 1%;
-      }    
-    } 
-
-}
-@media screen and (max-width: 400px){
-    .texto-principal .name {
-      padding: 50% 0;
-       h1{
-         top: -70px;
-         text-align: center;
-         position: relative;
-         background: transparent;
-         margin: 0;
-         width: 100%;
-         font-family: 'Lobster', cursive;
-         font-size: 40px;
-         color:#14ADA1;
-         padding-bottom: 1%;
-      }
-       h3{
-        top: -60px;
-        z-index: 10;
-        font-size: 20px;
-        color:#6C7A89;
-        padding: 0;
-        text-align: center;
-        position: relative;
-        margin: 0;
-        width: 100%;
-        font-family: 'Lobster', cursive;
-        font-weight: 600; 
-      }
-    }        
-    p{
-      padding: 5% 13%;
-    }
-  }
-.proyectos{
-      padding: 5% 2%;
-    .grid{
-         padding: 0;
-        }
-    }
-.carousel-inner > .item > a > img {
-  width: 100%;
-}
-hr {
-  /* border-top: 2px dashed #6C7A89;*/
+body {
+  background-size: 0.2em 100%;
+  font: 7.5em/1'Lobster', cursive;
   margin: 0;
 }
-.texto{
-  text-align: center;
-  padding: 4% 0 0;
-  font-family: 'Lobster', cursive;
-  color: #6C7A89;
-  font-weight: 700;
-}
-.tex{
-   height: 365px;
-   background-image: url(http://carsolidaritatea.ro/wp-content/uploads/2014/03/1344899.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
-   text-align: justify;
-   padding: 10.6% 75px;
-   font-family: 'Lobster', cursive;
-   span{
-   text-align: justify;
-   position: relative;
-   top: 1px;
-     color: white;
-     font-size: 19px;
-   }
-}
+
 /*menu*/
 .menudes {
   position: fixed;
@@ -172,10 +29,12 @@ hr {
   width: 100%;
   margin: 0 auto 10px;
   text-align:center;
-  z-index: 50;
-  background-color: black;
+  z-index: 5000;
+  background-color: #058181;
 }
-
+.navegacion{
+  background-color: #046464;
+}
 .menudes a {
   display: inline-block;
   width: 20%; /* 100% dividido por el número de elementos */
@@ -192,15 +51,21 @@ hr {
 .menu_bar {
   display:none;
 }
-
+.menu .barra-de-navegacion{
+  position: absolute;
+  top: -25px;
+}
 @media screen and (max-width: 700px) {
   .menu_bar {
     display:block;
     width:100%;
     position: fixed;
     top:0;
-    background-color:black;
-    z-index: 1000;
+    background-color:#14ADA1;
+    z-index: 10000;
+  }
+  .menu-responsive{
+    background-color:#046464;
   }
   .menu_bar .bt-menu {
     display: block;
@@ -217,7 +82,7 @@ hr {
     position: fixed;
     right: 100%;
     margin: 0;
-    z-index: 300;
+    z-index: 1000;
     height: calc(150% - 100px);
     display: block;
     overflow: scroll;
@@ -254,8 +119,11 @@ hr {
    border: 3px solid white ;
    transition: 0.5s ease-in-out;
    z-index:1;
-   background-color:#14ADA1;
+   background-color: #046464;
 } 
+.marca1{
+  background-color:#058181;
+}
 
 
  .menudes a:hover ~ .marca {
@@ -276,6 +144,84 @@ hr {
  .menudes a:nth-child(5):hover ~ .marca {
   left: 25%; /* 4/5 del ancho total */
 }
+
+
+/*portada*/
+.portada {
+  background-image: url(http://static.dunkedcdn.com/assets/site/images/desk-bg.jpg);
+  position: relative;
+  height: 100%;
+  background-attachment: fixed;
+}
+.portada .text {
+  fill: url(#gr-radial);
+  font-size: 70px;
+}
+@media screen and (max-width: 585px){
+  .portada .text {
+    fill: url(#gr-radial);
+    font-size: 40px;
+  }
+}
+@media screen and (max-width:330px){
+  .portada .text {
+    fill: url(#gr-radial);
+    font-size: 30px;
+  }
+}
+@media screen and (max-width:245px){
+  .portada .text {
+    fill: url(#gr-radial);
+    font-size: 25px;
+  }
+}
+.portada  svg:not(:root) {
+  overflow: hidden;
+  left: 0;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 253, 253, 0.23);;
+}
+
+svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+button.trigger {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  z-index: 50;
+  display: block;
+  margin-left: -0.5em;
+  padding: 0;
+  height: 10%;
+  border: none;
+  background: transparent;
+  color:#046D64;
+  font-size: 60px;
+  cursor: pointer;
+  font-weight: 700;
+  transform:translate(0px);
+  transition: 0.45s ease-in-out transform;
+}
+
+
+.portada h3 {
+  position: relative;
+  bottom: 57%;
+  z-index: 50;
+  display: block;
+  padding: 0;
+  width: 100%;
+  background: rgba(8, 8, 8, 0);
+  color: #848686;
+  font-size: 33px;
+  text-align: center;
+}
+
 /*projectos*/
 .proyectos{
   width: 100%;
@@ -333,7 +279,27 @@ hr {
       -ms-transform: rotate(-10deg);
           transform: rotate(-10deg);
 }
+.proyectos{
+      padding: 5% 2%;
+    .grid{
+         padding: 0;
+        }
+    }
 
+.carousel-inner > .item > a > img {
+  width: 100%;
+}
+hr {
+  /* border-top: 2px dashed #6C7A89;*/
+  margin: 0;
+}
+.texto{
+  text-align: center;
+  padding: 4% 0 0;
+  font-family: 'Lobster', cursive;
+  color: #6C7A89;
+  font-weight: 700;
+}
 
 
 .tema{
@@ -352,13 +318,44 @@ hr {
       font-size: 20px;
       font-weight: 600;    
     }
+    h3{
+      color:#14ADA1;
+      font-family: 'Lato', sans-serif;
+      margin: 0;
+      font-size: 20px;
+      font-weight: 600;
+      visibility: hidden;
+      z-index: 20;
+      position: absolute;
+    }
 }
-/*sobremi*/
+.fotos:hover{
+  .tema.h3{
+      visibility: visible;
+      transition: transform 0.8s 0.8s ease-in, opacity 0.2s ease-in-out;
+  }
+}
+.realize {
+padding: 0 4%;
+}
+.todo-proyecto { /*rgba(213, 213, 213, 1);*/
+background-color:rgba(200, 240, 222, 0.68);
+}
+/*yo*/
+.yo {
+  background-image: url(http://www.elliotjaystocks.com/assets/xDSCF6852.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
 .aboutme{
   text-align: center;
   padding: 4% 0 0;
   font-family: 'Lobster', cursive;
   color: #6C7A89;
+  background: rgba(32, 30, 30, 0.54);
+}
+section.demi {
+  background: rgba(32, 30, 30, 0.54);
 }
 .demi{
    p{
@@ -368,34 +365,41 @@ hr {
        line-height: 2;
        font-size: 18px;
        font-family: 'Lato', sans-serif;
-       color: rgb(47, 59, 61);
+       color:#F3F3F3 ;
        font-weight: 600;
    }
 }
 @media screen and (max-width: 710px){
- .demi p{
+ .demi {
+   padding: 3%;
+      p{
        padding: 0 10%;
        margin: 0;
        text-align: justify;
        line-height: 2;
        font-size: 15px;
        font-family: 'Lato', sans-serif;
-       color: rgb(47, 59, 61);
+       color:#F3F3F3;
        font-weight: 300;
-   } 
+   }   
+ }
+
 }
 
 @media screen and (max-width: 560px){
- .demi p{
-       padding: 0 5%;
-       margin: 0;
-       text-align: justify;
-       line-height: 2;
-       font-size: 15px;
-       font-family: 'Lato', sans-serif;
-       color: rgb(47, 59, 61);
-       font-weight: 300;
-   }
+ .demi {
+   padding: 5%;
+    p{
+        padding: 0 5%;
+        margin: 0;
+        text-align: justify;
+        line-height: 2;
+        font-size: 15px;
+        font-family: 'Lato', sans-serif;
+        color: #F3F3F3;
+        font-weight: 300;
+    }
+  }
 }
 .habilidades{
   text-align: center;
@@ -405,10 +409,22 @@ hr {
 }
 @media screen and (max-width: 993px){
   .habilidades{  
-   display: none;
-  }  
+   display: block;
+    .row{
+      display: none;
+    }
+  .responsive{
+    display: block;
+   }  
+ }
+
 }
 
+.responsive{
+  margin: 0 auto;
+  padding: 10%;
+  display: none;
+}
 .habilidades{
   img{
     width: 100%;
@@ -469,32 +485,53 @@ hr {
   }
 }
 
+/*contacteme*/
 
-.contactame{
+.text-texto-contacto h1{
   text-align: center;
   padding: 5% 0 0;
   font-family: 'Lobster', cursive;
   color: #6C7A89;
 }
-
-.text-texto{
-     p {
-     margin: 0;
-     padding: 5% 20%;
-     text-align: justify;
-     font-size: 18px;
-     font-family: 'Lato', sans-serif;
-     color: rgb(47, 59, 61);
-     font-weight: 800;
-   }
-}
-
 .contacteme{
-/*  padding: 5% 8%;*/
+  padding: 0;
 }
 
+.text-texto-contacto {
+  text-align: justify;  
+  p{
+      font-size: 18px;
+      font-family: 'Lato', sans-serif;
+      font-weight: 600;
+      line-height: 2;
+       padding: 3% 25%;
+       margin: 0;
+       text-align: justify;
+       line-height: 2;       
+       color:#F3F3F3 ;
+       font-weight: 600;
+  }
+}
+/*.contacto {
+  list-style: none;
+  padding: 0;
+   p {
+      display: inline-block;
+      font-size: 18px;
+      font-family: 'Lato', sans-serif;
+      font-weight: 500;
+       padding: 3% 25%;
+       margin: 0;
+       text-align: justify;
+       line-height: 2;
+       font-size: 18px;
+       font-family: 'Lato', sans-serif;
+       color:#F3F3F3 ;
+       font-weight: 600;
+   }
+}*/
 @media screen and (max-width: 560px){
-  .contactame {
+  .text-texto-contacto h1 {
     text-align: center;
     padding: 10% 0 0;
     font-family: 'Lobster', cursive;
@@ -508,14 +545,18 @@ hr {
 @media screen and (max-width: 710px){
 
     .contacteme .text-texto-contacto p {
-      padding: 0 5%;
-      margin: 0;
-      text-align: justify;
-      line-height: 2;
-      font-size: 15px;
-      font-family: 'Lato', sans-serif;
-      color: #2f3b3d;
-      font-weight: 300;
+       padding: 0 10%;
+       margin: 0;
+       text-align: justify;
+       line-height: 2;
+       font-size: 15px;
+       font-family: 'Lato', sans-serif;
+       color:#F3F3F3;
+       font-weight: 300;
+     }
+     .color{
+      background: rgba(44, 37, 37, 0.26);
+      padding: 5% 0
      }
 }
 @media screen and (max-width: 730px){
@@ -524,28 +565,13 @@ hr {
     font-size: 13px;
     padding: 3% 4%;
     font-weight: 300;
-  }  
+  } 
+  .contacteme .text-texto-contacto p {
+    padding: 0 15%;
+  } 
 }
 
-.text-texto-contacto {
-  text-align: justify;  
-  p{
-      font-size: 18px;
-      font-family: 'Lato', sans-serif;
-      font-weight: 600;
-      line-height: 2;
-  }
-}
-.contacto {
-  list-style: none;
-  padding: 0;
-   p {
-      display: inline-block;
-      font-size: 18px;
-      font-family: 'Lato', sans-serif;
-      font-weight: 500;
-   }
-}
+
 .final {
  height: 100px;
  text-align: center;
@@ -567,13 +593,14 @@ hr {
    height: 150px;
 }
 
-
-.fin {
- padding: 3% 0 5% 0;
+.color{
+  background: rgba(44, 37, 37, 0.26);
+  padding: 2% 0
 }
 
 .contac{
   text-align: center;
+  background: rgba(255, 255, 255, 0.82);
   h6{
     font-family: 'Lato', sans-serif;
     font-size: 17px;
@@ -661,8 +688,6 @@ width: 100%;
 padding: 1%;
 border: 1px solid rgb(211, 207, 207);  
 }
-
-
 
 
 
