@@ -5633,7 +5633,7 @@ button.close {
   width: 100%;
   height: 100%;
   padding: 0;
-  background-image: url(http://www.freejpg.com.ar/asset/900/02/027b/F100006448.jpg);
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/87/1a/30/871a304daf9d4205ee53265a8e6922c6.jpg);
   background-size: cover;
   background-attachment: fixed; }
 
@@ -5786,6 +5786,9 @@ body {
   .portada .text {
     fill: url(#gr-radial);
     font-size: 40px; } }
+@media screen and (max-width: 585px) {
+  .portada h3 {
+    font-size: 18px; } }
 @media screen and (max-width: 330px) {
   .portada .text {
     fill: url(#gr-radial);
@@ -5834,7 +5837,7 @@ button.trigger {
   width: 100%;
   background: rgba(8, 8, 8, 0);
   color: #848686;
-  font-size: 33px;
+  font-size: 30px;
   text-align: center; }
 
 /*projectos*/
@@ -5940,13 +5943,8 @@ hr {
 .realize {
   padding: 0 4%; }
 
-.todo-proyecto {
-  /*rgba(213, 213, 213, 1);*/
-  background-color: rgba(200, 240, 222, 0.68); }
-
-/*yo*/
 .yo {
-  background-image: url(http://www.elliotjaystocks.com/assets/xDSCF6852.jpg);
+  background-image: url(https://s-media-cache-ak0.pinimg.com/736x/fd/12/4b/fd124b8e7146d074a9b3919fbb6b9589.jpg);
   background-attachment: fixed;
   background-size: cover; }
 
@@ -5955,10 +5953,10 @@ hr {
   padding: 4% 0 0;
   font-family: 'Lobster', cursive;
   color: #6C7A89;
-  background: rgba(32, 30, 30, 0.54); }
+  background: rgba(252, 242, 242, 0.6); }
 
 section.demi {
-  background: rgba(32, 30, 30, 0.54); }
+  background: rgba(252, 242, 242, 0.6); }
 
 .demi p {
   padding: 3% 25%;
@@ -5967,7 +5965,7 @@ section.demi {
   line-height: 2;
   font-size: 18px;
   font-family: 'Lato', sans-serif;
-  color: #F3F3F3;
+  color: #575252;
   font-weight: 600; }
 
 @media screen and (max-width: 710px) {
@@ -5980,7 +5978,7 @@ section.demi {
       line-height: 2;
       font-size: 15px;
       font-family: 'Lato', sans-serif;
-      color: #F3F3F3;
+      color: #575252;
       font-weight: 300; } }
 @media screen and (max-width: 560px) {
   .demi {
@@ -5992,7 +5990,7 @@ section.demi {
       line-height: 2;
       font-size: 15px;
       font-family: 'Lato', sans-serif;
-      color: #F3F3F3;
+      color: #575252;
       font-weight: 300; } }
 .habilidades {
   text-align: center;
@@ -6006,7 +6004,17 @@ section.demi {
     .habilidades .row {
       display: none; }
     .habilidades .responsive {
-      display: block; } }
+      display: block; }
+      .habilidades .responsive .lista {
+        display: block;
+        font-size: 18px;
+        list-style: none;
+        text-decoration: none;
+        color: #575252;
+        padding: 0 0 10%; }
+        .habilidades .responsive .lista li {
+          padding: 4% 0;
+          text-align: center; } }
 .responsive {
   margin: 0 auto;
   padding: 10%;
@@ -6084,27 +6092,9 @@ section.demi {
     margin: 0;
     text-align: justify;
     line-height: 2;
-    color: #F3F3F3;
+    color: #575252;
     font-weight: 600; }
 
-/*.contacto {
-  list-style: none;
-  padding: 0;
-   p {
-      display: inline-block;
-      font-size: 18px;
-      font-family: 'Lato', sans-serif;
-      font-weight: 500;
-       padding: 3% 25%;
-       margin: 0;
-       text-align: justify;
-       line-height: 2;
-       font-size: 18px;
-       font-family: 'Lato', sans-serif;
-       color:#F3F3F3 ;
-       font-weight: 600;
-   }
-}*/
 @media screen and (max-width: 560px) {
   .text-texto-contacto h1 {
     text-align: center;
@@ -6123,11 +6113,11 @@ section.demi {
     line-height: 2;
     font-size: 15px;
     font-family: 'Lato', sans-serif;
-    color: #F3F3F3;
+    color: #575252;
     font-weight: 300; }
 
   .color {
-    background: rgba(44, 37, 37, 0.26);
+    background: rgba(252, 242, 242, 0.6);
     padding: 5% 0; } }
 @media screen and (max-width: 730px) {
   .fin .contac h6 {
@@ -6157,7 +6147,7 @@ section.demi {
   height: 150px; }
 
 .color {
-  background: rgba(44, 37, 37, 0.26);
+  background: rgba(252, 242, 242, 0.6);
   padding: 2% 0; }
 
 .contac {
