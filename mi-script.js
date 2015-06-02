@@ -48,6 +48,31 @@ $(document).ready(function(){
 });
 
 
+// $(document).ready(function(){
+//   $(window).scroll(function(){
+//     var prueba = $(this).scrollTop();
+//     $("#foto").text(prueba);
+//     if (prueba > 300) {
+//       $(".fotos").addClass("fot");
+//     }
+//       else if (prueba < 300) {
+//       $(".fotos").removeClass("fot");
+//     }
+//   });
+// });
+
+$(window).load(function() {
+    // start up after 2sec no matter what
+    window.setTimeout(function(){
+        $('body').removeClass("loading").addClass('loaded');
+    }, 4000);
+});
+
+
+
+
+
+
 
 
 

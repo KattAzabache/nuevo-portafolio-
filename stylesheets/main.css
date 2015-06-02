@@ -5637,6 +5637,19 @@ button.close {
   background-size: cover;
   background-attachment: fixed; }
 
+.loading {
+  background: url(https://app.1mtc.gov.my/apex/wwv_flow_file_mgr.get_file?p_security_group_id=11412908804315294&p_fname=loading.gif) no-repeat center center; }
+
+.load {
+  opacity: 0;
+  -webkit-transition: opacity .6s;
+  -moz-transition: opacity .6s;
+  -o-transition: opacity .6s;
+  transition: opacity .6s; }
+
+.loaded .load {
+  opacity: 1; }
+
 html, body {
   height: 100%; }
 
@@ -5847,7 +5860,9 @@ button.trigger {
   .proyectos .fotos {
     width: 100%;
     position: relative;
-    margin: 9% 0; }
+    margin: 9% 0;
+             /*
+visibility: hidden;*/ }
     .proyectos .fotos .grid {
       width: 100%; }
       .proyectos .fotos .grid img {
@@ -5856,6 +5871,9 @@ button.trigger {
         padding: 0;
         width: 100%; }
 
+/*.fot{
+  visibility: visible;
+}*/
 /* borde*/
 .grid img:hover {
   -webkit-box-shadow: 0 0 10px #333;
@@ -6014,7 +6032,29 @@ section.demi {
         padding: 0 0 10%; }
         .habilidades .responsive .lista li {
           padding: 4% 0;
-          text-align: center; } }
+          position: relative;
+          left: -6%; } }
+@media screen and (max-width: 500px) {
+  .habilidades .responsive {
+    display: block; }
+    .habilidades .responsive .lista {
+      display: block;
+      font-size: 13px;
+      list-style: none;
+      text-decoration: none;
+      color: #575252;
+      padding: 0 0 10%; }
+      .habilidades .responsive .lista li {
+        padding: 4% 0;
+        position: relative;
+        left: -15%; }
+
+  .foter {
+    background-color: black;
+    text-align: center;
+    margin-top: 3%;
+    border-top: 3px solid #14ADA1;
+    padding: 2%; } }
 .responsive {
   margin: 0 auto;
   padding: 10%;
@@ -6152,7 +6192,8 @@ section.demi {
 
 .contac {
   text-align: center;
-  background: rgba(255, 255, 255, 0.82); }
+  background: rgba(252, 242, 242, 0.6);
+  padding-bottom: 2%; }
   .contac h6 {
     font-family: 'Lato', sans-serif;
     font-size: 17px;
@@ -6172,26 +6213,26 @@ a {
 .foter {
   background-color: black;
   text-align: center;
-  margin-top: 3%;
-  border-top: 3px solid #14ADA1; }
+  /*margin-top: 3%;*/
+  border-top: 3px solid #14ADA1;
+  padding: 1%; }
   .foter h5 {
     color: white;
     padding: 0;
     margin: 0;
-    font-family: 'Lato', sans-serif;
-    padding-bottom: 1%; }
+    font-family: 'Lato', sans-serif; }
 
-.triangulo {
-  display: block;
-  width: 0;
-  height: 0;
-  border: 10px solid #0e0d0d;
-  border-color: transparent transparent #14ADA1;
-  border-width: 0px 34px 23px 34px;
-  top: -23px;
-  margin: 0 auto;
-  position: relative; }
-
+/*.triangulo{
+   display: block;
+   width: 0;
+   height: 0;
+   border: 10px solid rgb(14, 13, 13);
+   border-color: transparent transparent #14ADA1;
+   border-width: 0px 34px 23px 34px;
+   top: -23px;
+   margin: 0 auto;
+   position: relative;
+}*/
 button.btn.btn-primary {
   background: transparent;
   width: 5%;

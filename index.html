@@ -17,8 +17,8 @@
       <!-- compatibilidad --> 
       <meta http-equiv="X-UA-Compatible" content="chrome=1">
 </head>
-<body>
-  <div class="container">
+<body class="loading">
+  <div class="container load">
      <div class="menu">
        <header class="barra-de-navegacion">
               <div class="menu_bar">
@@ -88,7 +88,7 @@
                      </div>
                    </div>
                    <div class="col-md-4 col-ms-4 col-xs-12 realize">
-                     <div class="fotos">
+                     <div class="fotos" id="animate" style="visibility: hidden; opacity: 0; transform: matrix(0.7, 0, 0, 0.7, 0, 0);">
                        <div class="grid">
                            <a href="http://katty-azabache.github.io/danza/home/">
                                <img src="img/danza.png">
@@ -373,6 +373,7 @@
 
   </div>
 </body>
+
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>       
     <!-- Javascripts de Bootstrap -->
