@@ -5789,7 +5789,8 @@ body {
   background-image: url(http://static.dunkedcdn.com/assets/site/images/desk-bg.jpg);
   position: relative;
   height: 100%;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  background-size: cover; }
 
 .portada .text {
   fill: url(#gr-radial);
@@ -5841,9 +5842,21 @@ button.trigger {
   transform: translate(0px);
   transition: 0.45s ease-in-out transform; }
 
+@media screen and (max-width: 245px) {
+  .portada h3 {
+    position: relative;
+    bottom: 60%;
+    z-index: 50;
+    display: block;
+    padding: 0;
+    width: 100%;
+    background: rgba(8, 8, 8, 0);
+    color: #848686;
+    font-size: 18px;
+    text-align: center; } }
 .portada h3 {
   position: relative;
-  bottom: 57%;
+  bottom: 60%;
   z-index: 50;
   display: block;
   padding: 0;
@@ -6052,7 +6065,6 @@ section.demi {
   .foter {
     background-color: black;
     text-align: center;
-    margin-top: 3%;
     border-top: 3px solid #14ADA1;
     padding: 2%; } }
 .responsive {
@@ -6235,36 +6247,39 @@ a {
 }*/
 button.btn.btn-primary {
   background: transparent;
-  width: 5%;
+  width: 6%;
   border: 0;
   padding: 0; }
   button.btn.btn-primary img {
     width: 100%; }
 
 button.btn.btn-primary:hover {
+  border-radius: 50%;
   background-color: #E82946; }
+
+button.btn.btn-primary2:hover {
+  border-radius: 50%;
+  background-color: rgba(120, 186, 226, 0.82); }
 
 button.btn.btn-primary2 {
   background: transparent;
-  width: 5%;
+  width: 6%;
   border: 0;
   padding: 0; }
   button.btn.btn-primary2 img {
     width: 100%; }
 
-button.btn.btn-primary2:hover {
-  background-color: rgba(120, 186, 226, 0.82); }
-
 button.btn.btn-primary3 {
   background: transparent;
-  width: 4.5%;
+  width: 6%;
   border: 0;
   padding: 0; }
   button.btn.btn-primary3 img {
     width: 100%; }
 
 button.btn.btn-primary3:hover {
-  background-color: rgba(46, 139, 219, 0.94); }
+  border-radius: 50%;
+  background-color: grey; }
 
 .correo,
 .contra {
