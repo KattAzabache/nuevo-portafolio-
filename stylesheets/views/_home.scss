@@ -43,10 +43,10 @@ body {
   margin: 0 auto 10px;
   text-align:center;
   z-index: 5000;
-  background-color: #058181;
+  background-color: rgba(24, 176, 176, 0.73);
 }
 .navegacion{
-  background-color: #046464;
+  background-color: #0C9898;
 }
 .menudes a {
   display: inline-block;
@@ -74,16 +74,16 @@ body {
     width:100%;
     position: fixed;
     top:0;
-    background-color:#14ADA1;
+    background-color: rgba(24, 176, 176, 0.73);
     z-index: 10000;
   }
   .menu-responsive{
-    background-color:#046464;
+    background-color:#0C9898;
   }
   .menu_bar .bt-menu {
     display: block;
     padding: 1%;
-    color: #14ADA1;
+    color: white;
     overflow: hidden;
     font-size: 30px;
     font-weight: bold;
@@ -129,13 +129,13 @@ body {
    box-sizing: border-box;
    bottom: 0;
    left: -30%;
-   border: 3px solid white ;
+   border: 2px solid white ;
    transition: 0.5s ease-in-out;
    z-index:1;
-   background-color: #046464;
+   background-color: rgba(132, 147, 147, 0.74);
 } 
 .marca1{
-  background-color:#058181;
+  background-color:rgba(131, 134, 134, 0.74);
 }
 
 
@@ -221,7 +221,7 @@ button.trigger {
   height: 10%;
   border: none;
   background: transparent;
-  color:#046D64;
+  color:#0FAB9E;
   font-size: 60px;
   cursor: pointer;
   font-weight: 700;
@@ -251,7 +251,7 @@ button.trigger {
   padding: 0;
   width: 100%;
   background: rgba(8, 8, 8, 0);
-  color: #848686;
+  color: #6D6E6E;
   font-size: 30px;
   text-align: center;
 }
