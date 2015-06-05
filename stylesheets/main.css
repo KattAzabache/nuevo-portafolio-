@@ -5989,16 +5989,16 @@ hr {
 
 .aboutme {
   text-align: center;
-  padding: 4% 0 0;
+  padding: 1% 0 0;
   font-family: 'Lobster', cursive;
   color: #6C7A89;
-  background: rgba(252, 242, 242, 0.72); }
+  background: white; }
 
 section.demi {
-  background: rgba(252, 242, 242, 0.72); }
+  background: white; }
 
 .demi p {
-  padding: 3% 25%;
+  padding: 4% 25% 1%;
   margin: 0;
   text-align: justify;
   line-height: 2;
@@ -6033,7 +6033,7 @@ section.demi {
       font-weight: 300; } }
 .habilidades {
   text-align: center;
-  padding: 3% 0;
+  padding: 3% 0 0;
   font-family: 'Lobster', cursive;
   color: #6C7A89;
   margin: 0; }
@@ -6207,7 +6207,7 @@ section.demi {
   background-color: white;
   color: #0c9898;
   border: 2px solid #0c9898;
-  margin: -30% 0;
+  margin: -17% 0;
                /*
 text-shadow: hidden;*/ }
   .icon:hover h3 {
@@ -6224,12 +6224,12 @@ text-shadow: hidden;*/ }
 .habilidades .row {
   padding: 0 5%; }
   .habilidades .row .col-md-3 {
-    padding: 5%; }
+    padding: 8% 5% 1%; }
 
 /*contacteme*/
 .text-texto-contacto h1 {
   text-align: center;
-  padding: 5% 0 0;
+  padding: 0;
   font-family: 'Lobster', cursive;
   color: #6C7A89; }
 
@@ -6243,7 +6243,7 @@ text-shadow: hidden;*/ }
     font-family: 'Lato', sans-serif;
     font-weight: 600;
     line-height: 2;
-    padding: 3% 25%;
+    padding: 5% 15%;
     margin: 0;
     text-align: justify;
     line-height: 2;
@@ -6272,8 +6272,8 @@ text-shadow: hidden;*/ }
     font-weight: 300; }
 
   .color {
-    background: rgba(252, 242, 242, 0.72);
-    padding: 5% 0; } }
+    background: white;
+    padding: 2% 0; } }
 @media screen and (max-width: 730px) {
   .fin .contac h6 {
     font-family: 'Lato', sans-serif;
@@ -6302,12 +6302,12 @@ text-shadow: hidden;*/ }
   height: 150px; }
 
 .color {
-  background: rgba(252, 242, 242, 0.72);
+  background: white;
   padding: 2% 0; }
 
 .contac {
   text-align: center;
-  background: rgba(252, 242, 242, 0.72);
+  background: white;
   padding-bottom: 2%; }
   .contac h6 {
     font-family: 'Lato', sans-serif;
@@ -6392,18 +6392,5 @@ button.btn.btn-primary3:hover {
   width: 100%;
   padding: 1%;
   border: 1px solid #d3cfcf; }
-
-/*https://9to5mac.files.wordpress.com/2015/03/nano.jpg?w=704&h=422
-http://74211.com/wallpaper/picture_big/Image-of-Relaxable-Time-MacBook-and-Coffee-Slowly-Running-Time.jpg
-http://priscillaklee.com/wp-content/uploads/2015/01/MacbookCoffeeMockup.jpg
-https://9to5mac.files.wordpress.com/2015/03/nano.jpg?w=704&h=422
-http://themes.pixelb.in/induction/wp-content/uploads/2013/06/IMG_5766.jpg
-http://images.youthhealthmag.com/data/images/full/6005/apple-opens-new-store-in-chicagos-lincoln-park.jpg?w=600
-https://picjumbo.com/wp-content/uploads/IMG_5533-1300x866.jpg  -rgba(197, 221, 223, 0.6)
-http://cdn.gananci.com/wp-content/uploads/2014/12/Hombre-escribiendo-en-su-laptop-con-una-taza-de-caf%C3%A9.jpg
-https://d3ui957tjb5bqd.cloudfront.net/images/screenshots/products/10/103/103196/hip_macbook_03-o.jpg?1398500615
-http://mockdrop.io/web/images/mockup_macbook_desk.png
-http://i1.wp.com/www.fusionplate.com/wp-content/uploads/Photorealistic-Device-Mock-Ups-Free-PSD.jpg?w=730
-http://www.fantastic-logos.com/wp-content/uploads/2014/06/Screen-Shot-2014-06-21-at-12.07.59-AM.png*/
 
 /*# sourceMappingURL=main.css.map */
